@@ -1,0 +1,15 @@
+
+安装说明；
+
+1.导入跟目录数据库
+
+2.配置SQL连接参数路径：system\config\database.inc.php
+
+3.后台管理：http://域名/admin 用户名：admin 密码：123456 （需伪静态正常才能打开后台）如果没有伪静态则 http://域名/?/admin
+
+
+
+
+
+
+

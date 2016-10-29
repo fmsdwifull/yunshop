@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>{wc:$title}</title>
+    <meta content="app-id=518966501" name="apple-itunes-app" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+
+    <link href="{G_TEMPLATES_CSS}/mobile/comm.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{G_TEMPLATES_STYLE}/css/layout-setUp.css"/>
+	<link href="{G_TEMPLATES_CSS}/mobile/login.css" rel="stylesheet" type="text/css" />
+	<script src="{G_TEMPLATES_JS}/mobile/jquery190.js" language="javascript" type="text/javascript"></script>
+	<script type="text/javascript" src="{G_TEMPLATES_STYLE}/js/area.js"></script>
+	
+	<style type="text/css">
+		.input-margin{
+		margin-bottom:5px;
+		}
+		.address{
+		text-align:center;
+		-webkit-appearance:menulist;
+		color: #ccc; 
+		font-size:16px;
+		border-radius: 5px;
+		border: 1px solid #ddd;
+		}
+	</style>
+</head>
+<body>
+    <div class="h5-1yyg-v1" id="content">
+        
+<!-- 栏目页面顶部 -->
+
+
+<!-- 内页顶部 -->
+
+    <header class="g-header">
+        <div class="head-l">
+	        <a href="javascript:;" onclick="history.go(-1)" class="z-HReturn"><s></s><b>返回</b></a>
+        </div>
+        <h2>收货地址</h2>
+        <!--<div class="head-r">
+	        <a href="{WEB_PATH}/mobile/mobile" class="z-Home"></a>
+        </div>-->
+    </header>
+
+        <section>
+	        <div class="registerCon">
+	        <form action="{WEB_PATH}/mobile/home/add_address" method="post">
+    	        <ul>
+        	        					<li>
+						<dl class="input-margin">
+
+						<script>var s=["province","city","county"];
+						var opt0 = ["请选择","请选择","请选择"];
+						</script>
+						
+						<select datatype="*" nullmsg="请选择有效的省市区" class="select address" id="province" runat="server" name="sheng"></select>
+						<select datatype="*" nullmsg="请选择有效的省市区" class="select address" id="city" runat="server" name="shi"></select>
+						<select datatype="*" nullmsg="请选择有效的省市区" class="select address" id="county" runat="server" name="xian"></select>
+						<script type="text/javascript">setup()</script>
+				                        </dl>
+
+						<dl class="input-margin"><input id="" type="text" placeholder="收货地址（不要重复写省/市/区）" name="jiedao"></dl>
+						<dl class="input-margin"><input id="" type="text" placeholder="邮政编码" name="youbian"></dl>
+						<dl class="input-margin"><input id="" type="text" placeholder="收货人" name="shouhuoren"></dl>
+						<dl class="input-margin"><input id="" type="text" placeholder="手机号码" name="mobile"></dl>
+						<dl class="input-margin"><input id="" type="text" placeholder="QQ号码" name="qq"></dl>
+						</li>
+						<li>
+						<input type="submit"  class="nextBtn orgBtn" value="保 存" style="background:#f60" name="do_submit"/>
+                    					</li>
+                    					
+                    					
+                   </ul>
+                   </form>
+	        </div>
+        </section>
+        
+{wc:templates "mobile/index","footer"}
+<script language="javascript" type="text/javascript">
+  var Path = new Object();
+  Path.Skin="{G_TEMPLATES_STYLE}";  
+  Path.Webpath = "{WEB_PATH}";
+  
+var Base={head:document.getElementsByTagName("head")[0]||document.documentElement,Myload:function(B,A){this.done=false;B.onload=B.onreadystatechange=function(){if(!this.done&&(!this.readyState||this.readyState==="loaded"||this.readyState==="complete")){this.done=true;A();B.onload=B.onreadystatechange=null;if(this.head&&B.parentNode){this.head.removeChild(B)}}}},getScript:function(A,C){var B=function(){};if(C!=undefined){B=C}var D=document.createElement("script");D.setAttribute("language","javascript");D.setAttribute("type","text/javascript");D.setAttribute("src",A);this.head.appendChild(D);this.Myload(D,B)},getStyle:function(A,B){var B=function(){};if(callBack!=undefined){B=callBack}var C=document.createElement("link");C.setAttribute("type","text/css");C.setAttribute("rel","stylesheet");C.setAttribute("href",A);this.head.appendChild(C);this.Myload(C,B)}}
+function GetVerNum(){var D=new Date();return D.getFullYear().toString().substring(2,4)+'.'+(D.getMonth()+1)+'.'+D.getDate()+'.'+D.getHours()+'.'+(D.getMinutes()<10?'0':D.getMinutes().toString().substring(0,1))}
+Base.getScript('{G_TEMPLATES_JS}/mobile/Bottom.js?v='+GetVerNum());
+  var checkcode=document.getElementById('checkcode');
+  checkcode.src = checkcode.src + new Date().getTime();
+  var src=checkcode.src;
+  checkcode.onclick=function(){
+      this.src=src+'/'+new Date().getTime();
+  }
+</script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>{wc:$title}</title>
+    <meta content="app-id=518966501" name="apple-itunes-app" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+
+    <link href="{G_TEMPLATES_CSS}/mobile/comm.css" rel="stylesheet" type="text/css" />
+	<link href="{G_TEMPLATES_CSS}/mobile/login.css" rel="stylesheet" type="text/css" />
+	<script src="{G_TEMPLATES_JS}/mobile/jquery190.js" language="javascript" type="text/javascript"></script>
+
+	
+	<style type="text/css">
+		.place{
+		width: 100%;
+		height: 35px;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 0 5px;
+		display: inline-block;
+		-webkit-box-sizing: border-box;
+		position: relative;
+		font-size: 12px;
+		}
+		.input-margin{
+		margin-bottom:5px;
+		}
+		.tel{
+		font-size:16px;
+		color:#000000;
+		}
+		</style>
+</head>
+<body>
+    <div class="h5-1yyg-v1" id="content">
+        
+<!-- 栏目页面顶部 -->
+
+
+<!-- 内页顶部 -->
+
+    <header class="g-header">
+        <div class="head-l">
+	        <a href="javascript:;" onclick="history.go(-1)" class="z-HReturn"><s></s><b>返回</b></a>
+        </div>
+        <h2>个人设置</h2>
+        <!--<div class="head-r">
+	        <a href="{WEB_PATH}/mobile/mobile" class="z-Home"></a>
+        </div>-->
+    </header>
+<form method="post" action="{WEB_PATH}/mobile/home/do_modify">
+        <section>
+	        <div class="registerCon">
+    	        <ul>
+				     <li>
+
+			手机：<dl class="input-margin"><span class="tel">{wc:$member['mobile']}</span>&nbsp;&nbsp;</dl>
+            	        昵称：<dl class="input-margin"><input id="" type="text" class="txt" name="username" placeholder="昵称为2-20个汉字、字母、数字、“_”字符组成" value="{wc:$member['username']}" style="color:black"></dl>
+            	        签名：
+                        <textarea id="" class="qianming" name="qianming" placeholder="签名！让别人看到不一样的你！" style="color:black;width:100%;height:80px">{wc:$member['qianming']}</textarea>
+						
+						
+
+						</li>
+						<li>
+						<input type="hidden" name="uid" value="{wc:$member['uid']}">
+						<input class="nextBtn orgBtn" style="background:#f60" type="submit" value="保存">
+                    	</li>
+                   </ul>
+	        </div>
+        </section>
+        </form>
+{wc:templates "mobile/index","footer"}
+<script language="javascript" type="text/javascript">
+  var Path = new Object();
+  Path.Skin="{G_TEMPLATES_STYLE}";  
+  Path.Webpath = "{WEB_PATH}";
+  
+var Base={head:document.getElementsByTagName("head")[0]||document.documentElement,Myload:function(B,A){this.done=false;B.onload=B.onreadystatechange=function(){if(!this.done&&(!this.readyState||this.readyState==="loaded"||this.readyState==="complete")){this.done=true;A();B.onload=B.onreadystatechange=null;if(this.head&&B.parentNode){this.head.removeChild(B)}}}},getScript:function(A,C){var B=function(){};if(C!=undefined){B=C}var D=document.createElement("script");D.setAttribute("language","javascript");D.setAttribute("type","text/javascript");D.setAttribute("src",A);this.head.appendChild(D);this.Myload(D,B)},getStyle:function(A,B){var B=function(){};if(callBack!=undefined){B=callBack}var C=document.createElement("link");C.setAttribute("type","text/css");C.setAttribute("rel","stylesheet");C.setAttribute("href",A);this.head.appendChild(C);this.Myload(C,B)}}
+function GetVerNum(){var D=new Date();return D.getFullYear().toString().substring(2,4)+'.'+(D.getMonth()+1)+'.'+D.getDate()+'.'+D.getHours()+'.'+(D.getMinutes()<10?'0':D.getMinutes().toString().substring(0,1))}
+Base.getScript('{G_TEMPLATES_JS}/mobile/Bottom.js?v='+GetVerNum());
+  var checkcode=document.getElementById('checkcode');
+  checkcode.src = checkcode.src + new Date().getTime();
+  var src=checkcode.src;
+  checkcode.onclick=function(){
+      this.src=src+'/'+new Date().getTime();
+  }
+</script>
+
+    </div>
+</body>
+</html>

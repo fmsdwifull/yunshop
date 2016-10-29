@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>{wc:$title}</title>
+    <meta content="app-id=518966501" name="apple-itunes-app" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+
+    <link href="{G_TEMPLATES_CSS}/mobile/comm.css" rel="stylesheet" type="text/css" />
+	<link href="{G_TEMPLATES_CSS}/mobile/login.css" rel="stylesheet" type="text/css" />
+	<script src="{G_TEMPLATES_JS}/mobile/jquery190.js" language="javascript" type="text/javascript"></script>
+	<script type="text/javascript" src="{G_TEMPLATES_STYLE}/js/area.js"></script>
+	
+	<style type="text/css">
+		.address1{
+		padding:5px;
+		background: #fff;
+		}
+		.li-margin{
+		margin-bottom:10px;
+		}
+		
+		.address-con{
+		width:80%;
+		}
+		.address-btn{
+		float:right;
+		width:15%;
+		}
+		.update{
+		position:absolute;
+		top:20%;
+		background: #f60;
+		border: 1px solid #ef6000;
+		color:white;
+		border-radius: 5px;
+		padding:5px;
+		}
+	</style>
+</head>
+<body>
+    <div class="h5-1yyg-v1" id="content">
+        
+<!-- 栏目页面顶部 -->
+
+
+<!-- 内页顶部 -->
+
+    <header class="g-header">
+        <div class="head-l">
+	        <a href="javascript:;" onclick="history.go(-1)" class="z-HReturn"><s></s><b>返回</b></a>
+        </div>
+        <h2>个人设置</h2>
+        <!--<div class="head-r">
+	        <a href="{WEB_PATH}/mobile/mobile" class="z-Home"></a>
+        </div>-->
+    </header>
+
+        <section>
+	        <div class="registerCon">
+    	        <ul>
+    	        {wc:loop $addresslist $v}
+				   <li class="li-margin m-round"><dl class="address1">
+					<div class="address-con">
+					<p>{wc:$v['shouhuoren']} <span style="float:right">{wc:$v['mobile']}</span></p>
+					<p>{wc:$v['sheng']}{wc:$v['shi']}{wc:$v['xian']}{wc:$v['jiedao']}</p>
+					{wc:if $v['default']=='Y'}
+					<p style="color:red">默认地址</p>
+					{wc:else}
+					<p style="cursor:pointer" onclick="moren({wc:$v[id]})">设为默认地址</p>
+					{wc:if:end}
+					</div>
+					<div class="address-btn">
+					<button class="update" onclick="location.href='{WEB_PATH}/mobile/home/edit_address/{wc:$v[id]}'">修改</button>
+					</div>
+	                   			</dl>
+				</li>
+		{wc:loop:end}
+						<li class="li-margin">
+						<a href="{WEB_PATH}/mobile/home/add_address"  class="nextBtn orgBtn">添加收货地址</a>
+                    	</li>
+                    					
+                    					
+                   </ul>
+	        </div>
+        </section>
+        
+{wc:templates "mobile/index","footer"}
+<script language="javascript" type="text/javascript">
+  var Path = new Object();
+  Path.Skin="{G_TEMPLATES_STYLE}";  
+  Path.Webpath = "{WEB_PATH}";
+  
+var Base={head:document.getElementsByTagName("head")[0]||document.documentElement,Myload:function(B,A){this.done=false;B.onload=B.onreadystatechange=function(){if(!this.done&&(!this.readyState||this.readyState==="loaded"||this.readyState==="complete")){this.done=true;A();B.onload=B.onreadystatechange=null;if(this.head&&B.parentNode){this.head.removeChild(B)}}}},getScript:function(A,C){var B=function(){};if(C!=undefined){B=C}var D=document.createElement("script");D.setAttribute("language","javascript");D.setAttribute("type","text/javascript");D.setAttribute("src",A);this.head.appendChild(D);this.Myload(D,B)},getStyle:function(A,B){var B=function(){};if(callBack!=undefined){B=callBack}var C=document.createElement("link");C.setAttribute("type","text/css");C.setAttribute("rel","stylesheet");C.setAttribute("href",A);this.head.appendChild(C);this.Myload(C,B)}}
+function GetVerNum(){var D=new Date();return D.getFullYear().toString().substring(2,4)+'.'+(D.getMonth()+1)+'.'+D.getDate()+'.'+D.getHours()+'.'+(D.getMinutes()<10?'0':D.getMinutes().toString().substring(0,1))}
+Base.getScript('{G_TEMPLATES_JS}/mobile/Bottom.js?v='+GetVerNum());
+  var checkcode=document.getElementById('checkcode');
+  checkcode.src = checkcode.src + new Date().getTime();
+  var src=checkcode.src;
+  checkcode.onclick=function(){
+      this.src=src+'/'+new Date().getTime();
+  }
+</script>
+
+    </div>
+</body>
+<script>
+	function moren(id){
+		var d='Y';
+		$.post('{WEB_PATH}/mobile/home/moren',{id:id,def:d},function(data){
+			if(data=='ok'){
+				//window.location.href="{WEB_PATH}/mobile/home/address";
+				window.location.reload();
+			}else{
+				alert('设置地址失败');
+			}
+		});
+	}
+
+</script>
+</html>

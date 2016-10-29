@@ -1,0 +1,87 @@
+<?php defined('G_IN_SYSTEM')or exit('No permission resources.'); ?>﻿<div style="width:100%;margin-bottom:50px;"></div>
+
+
+<div class="footer" style="bottom: 0px;">
+    <ul>
+        <li class="f_home"><a href="<?php echo WEB_PATH; ?>/mobile/mobile/"   ><i></i>首页</a></li>
+        <li class="f_whole"><a href="<?php echo WEB_PATH; ?>/mobile/mobile/glist/"  > <i></i>所有商品</a></li>
+        <li class="f_car"><a  href="<?php echo WEB_PATH; ?>/mobile/cart/cartlist/" ><i></i>购物车</a></li>
+        <li class="f_personal"><a href="<?php echo WEB_PATH; ?>/mobile/home/" ><i></i>我的云购</a></li>
+    </ul>
+</div>
+
+
+<style>
+
+
+.footer {
+  clear: both;
+  width: 100%;
+  background: #f7f7f7;
+  border-top: 1px solid #ddd;
+  height: 48px;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+
+.footer a {
+  width: 25%;
+  height: 44px;
+  padding-top: 3px;
+  text-align: center;
+  float: left;
+  display: block;
+  color: #888;
+}
+
+.footer a i {
+  display: block;
+  background: url('/statics/templates/taolong-fangwangyi/images/mobile/f_set.png');
+  background-size: 28px auto;
+  margin: 0 auto;
+  margin-bottom: 1px;
+}
+
+.footer li.f_whole a.hover i {
+  width: 23px;
+  height: 25px;
+  background-position: 0 -52px;
+  position: relative;
+  top: 1px;
+}
+
+.footer li.f_whole i {
+  width: 23px;
+  height: 25px;
+  background-position: 0 -78px;
+  position: relative;
+  top: 1px;
+}
+.footer li.f_home i {
+  width: 27px;
+  height: 25px;
+  background-position: 0 -26px;
+}
+.footer li.f_car i {
+  width: 28px;
+  height: 23px;
+  background-position: 0 -128px;
+  position: relative;
+  top: 2px;
+  margin-bottom: 3px;
+  position: relative;
+}
+.footer li.f_personal i {
+  width: 20px;
+  height: 22px;
+  background-position: 0 -175px;
+  position: relative;
+  top: 3px;
+  margin-bottom: 4px;
+}
+address, em, i, cite, s {
+  font-style: normal;
+}
+</style>

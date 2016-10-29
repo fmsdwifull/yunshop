@@ -1,0 +1,508 @@
+[ 2015-02-07T14:49:02+08:00 ] ERR: (ThinkException) Access denied for user 'toupiao'@'localhost' (using password: YES)
+[ 2015-02-07T14:49:52+08:00 ] ERR: (ThinkException) Access denied for user 'toupiao'@'localhost' (using password: YES)
+[ 2015-02-07T14:53:36+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004687s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.071470s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000552s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005839s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057651s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.064739s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065572s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066840s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004106s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2015-02-07T14:53:45+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004734s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000524s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005194s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017846s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024050s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024817s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025614s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003147s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2015-02-07T14:54:15+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004776s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000559s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006407s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001343s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022258s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030122s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031308s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032683s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004903s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035095s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2015-02-07T14:54:17+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.011987s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.001256s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015282s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003178s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021959s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040597s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042011s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043428s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2015-02-07T14:54:20+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004905s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000533s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013628s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020704s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023077s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009901s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003042s ]
+
+[ 2015-02-07T14:54:25+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004754s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000541s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005820s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038024s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044947s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045684s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046592s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002871s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2015-02-07T14:55:00+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004757s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000616s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005162s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008104s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014271s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014979s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015662s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002629s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016967s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2015-02-07T14:55:03+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T14:56:28+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:01:28+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:08:31+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:14:17+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:14:43+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:14:45+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003766s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000427s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003485s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015526s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019861s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021128s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002282s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022201s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-02-07T15:14:51+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.009779s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000979s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007944s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001182s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021564s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022489s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023490s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2015-02-07T15:14:55+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:14:56+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.013907s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000839s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006354s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011960s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019583s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020425s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021340s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003247s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2015-02-07T15:16:07+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003896s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003363s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005573s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009490s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009871s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010259s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-02-07T15:16:12+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:16:13+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003822s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000469s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003427s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005556s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009653s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010043s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010469s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-02-07T15:23:20+08:00 ] 127.0.0.1 /index.php?m=Users&a=checklogin
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.010521s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.012647s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.008045s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003636s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: UPDATE `tp_users` SET `diynum`='0',`connectnum`='0',`activitynum`='0' WHERE ( `id` = 1 ) [ RunTime:0.089085s ]
+SQL: UPDATE `tp_users` SET `lasttime`='1423293800',`lastloginmonth`='2',`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000376s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.129818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.130655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015537s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.146237s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.146677s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.147284s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.147630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.148157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-02-07T15:23:23+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003846s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003008s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004878s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004343s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002988s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.003981s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.157201s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.220873s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ok D:\WEBservice\WWW\wwww.shouji.com\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index: id D:\WEBservice\WWW\wwww.shouji.com\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 180 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.222496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029351s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.251863s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.252287s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.252718s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.253091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.253703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2015-02-07T15:32:07+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003831s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000517s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005398s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001206s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018412s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025098s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025965s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027003s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003611s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2015-02-07T15:32:14+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005743s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000502s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006099s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001195s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009184s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016588s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017621s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018685s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2015-02-07T15:32:19+08:00 ] ERR: (ThinkException) 非法操作:login'
+[ 2015-02-07T15:32:20+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003989s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000458s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004151s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007732s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012751s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013260s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013830s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-02-07T15:32:41+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.008971s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000940s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011192s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002257s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038591s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052203s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052810s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053565s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-02-07T15:32:45+08:00 ] ERR: (ThinkException) 非法操作:asd
+[ 2015-02-07T15:32:46+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.008853s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\WEBservice\WWW\wwww.shouji.com\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shouji.com' ) LIMIT 1   [ RunTime:0.000992s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\WEBservice\WWW\wwww.shouji.com\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009141s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001926s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016278s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027539s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028647s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030028s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003942s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000995s ]
+

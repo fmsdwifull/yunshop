@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'vid', 2 => 'ggurl', 3 => 'gginfo', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'vid' => 'int(11)', 'ggurl' => 'varchar(200)', 'gginfo' => 'varchar(260)', ), ); ?>

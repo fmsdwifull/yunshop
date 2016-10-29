@@ -1,0 +1,64 @@
+ <include file="Public:head"/>
+ <style>
+ .userinfoarea th {
+text-align: left;
+width: 145px;
+height: 30px;
+font-size: 14px;
+font-weight: bold;
+line-height: 30px;
+padding: 8px 0;
+}
+.userinfoarea td {
+margin-left: 10px;
+padding: 8px 0;
+color: #666;
+font-size: 12px;
+height: 50px;
+}
+.userinfoarea td .px{ height:35px}
+.right{}
+ </style>
+<div class="content" style="margin-left:20px; height:400px">
+<link href="{31cms::RES}/css/style.css?id=100" rel="stylesheet" type="text/css" />
+          <div class="cLineB"><h4>信息绑定</h4><a href="{31cms::U('User/Vote/index')}" class="right btn btn-primary btn_submit  J_ajax_submit_btn" style="margin-top:-27px">返回</a></div>
+          <form method="post" action="" enctype="multipart/form-data">
+          <div class="msgWrap">
+            <table class="userinfoArea" border="0" cellspacing="0" cellpadding="0" width="100%">
+              <tbody>
+				<tr>
+                	<th>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">*</span>活动名称</th>
+                	<td><input type="text" class="px"  value="{31cms:$info['tel']}" name="tel">　请输入您的活动名称</td>
+                </tr>
+				<tr>
+                	<th>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">*</span>公众号</th>
+                	<td><input type="text" class="px"  value="{31cms:$info['gongzhong']}" name="gongzhong">　请输入您的公众号</td>
+                </tr>
+				<tr>
+                	<th>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">*</span>公众号二维码图片</th>
+                	<td><input type="text" name="picurl" id="picurl" value="{31cms:$info.qrimg}" class="px" ">
+						<a href="#" onclick="upyunPicUpload('picurl',700,400,'{31cms:$token}')" class="btn btn-primary btn_submit  J_ajax_submit_btn">上传</a>
+					</td>
+                </tr>
+				<tr>
+                	<th>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">*</span>关注回复</th>
+                	<td><input type="text" class="px"  value="{31cms:$rep['content']}" name="content">关注您的公众账号后回复的内容（默认不需要改动）</td>
+                </tr>
+				<tr>
+                	<th>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">*</span>关注地址</th>
+                	<td><input type="text" class="px"  value="{31cms:$info['email']}" name="email">请输入您的公众号一键关注的链接</td>
+                </tr>
+                 <tr>
+                 	<th></th>
+                 	<td><button type="submit" name="button" class="btn btn-primary btn_submit  J_ajax_submit_btn">确定</button></td>
+                 	</tr>
+              </tbody>
+            </table>
+            
+          </div>
+          </form>
+          
+        </div>
+
+  <!--底部-->
+  	</div><include file="Public:footer"/>	

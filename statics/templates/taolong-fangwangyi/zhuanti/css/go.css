@@ -1,0 +1,22 @@
+@charset "utf-8";
+*{margin:0;padding:0;font-family:microsoft Yahei;list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+body{min-width: 1207px;margin: 0 auto;}
+/*banner*/
+.go-banner{width: 100%;background: url(../../img/go-banner.jpg) no-repeat center 0;height: 868px;}
+.go-con{width: 100%;background: #f56b14;height:1700px;}
+.go-con-in{width:1207px;margin: 0 auto;background: #fb8509;padding-top: 21px;padding-bottom: 34px;position: relative;top: -275px;}
+.go-con-ins{width: 1145px;background: #ffffff;margin: 0 auto 21px;border-radius: 10px;}
+.go-con-ins1,.go-con-ins3{height: 82px;}
+.go-con-ins1 img,.go-con-ins3 img{display:block;margin: 0 auto;padding-top: 13px;}
+.go-con-ins2{height: 470px;position: relative;}
+.go-con-ins2 .go-2img{display:block;margin-left: 231px;margin-top: 22px;width: auto;}
+.go-goods{position: absolute;width: 298px;height: 174px;bottom: 40px;left: 36px;background: url(../../img/ap.jpg) no-repeat;}
+.go-con-ins4{height: 538px;}
+.go-con-ins4 img{display:block;margin-left: 153px;margin-top: 14px;}
+.go-con-ins5{height: 610px;background: #fff url(../../img/go-5.jpg) no-repeat 51px 13px;position: relative;margin-bottom: 0px;}
+.go-con-ins5 a{display: block;position: absolute;}
+.go-con-ins5 a.go-a-o{width: 300px;height: 28px;left: 79px;top: 454px;}
+.go-con-ins5 a.go-a-t{width: 131px;height: 34px;right: 118px;top: 272px;}
+.go-con-ins5 a.go-a-th{width: 131px;height: 34px;left: 540px;top: 500px;}

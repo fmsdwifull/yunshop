@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'item_id', 2 => 'vid', 3 => 'wecha_id', 4 => 'touched', 5 => 'touch_time', 6 => 'token', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'item_id' => 'varchar(50)', 'vid' => 'int(11)', 'wecha_id' => 'varchar(100)', 'touched' => 'tinyint(4)', 'touch_time' => 'int(11)', 'token' => 'varchar(50)', ), ); ?>

@@ -1,0 +1,273 @@
+[ 2015-08-03T18:52:49+08:00 ] 127.0.0.1 /vote/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') E:\web\wwwroot\yungou.com\vote\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002741s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.yungou.com' ) LIMIT 1   [ RunTime:0.001100s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006571s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024429s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024850s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-08-03T18:52:57+08:00 ] 127.0.0.1 /vote/index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002405s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.yungou.com' ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004017s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.001325s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.001701s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: UPDATE `tp_users` SET `diynum`=0,`connectnum`=0,`activitynum`=0 WHERE ( `id` = 1 ) [ RunTime:0.000362s ]
+SQL: UPDATE `tp_users` SET `lasttime`=1438599177,`lastloginmonth`=8,`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000405s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.029630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006691s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037012s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038044s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038470s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002246s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-08-03T18:52:58+08:00 ] 127.0.0.1 /vote/index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002383s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.yungou.com' ) LIMIT 1   [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.001616s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004164s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001264s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.002861s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.001220s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.002076s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000540s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\web\wwwroot\yungou.com\vote\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000381s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039383s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index: id E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014600s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054836s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055383s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055781s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056499s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-08-03T18:53:03+08:00 ] 127.0.0.1 /vote/index.php?g=User&m=Vote&a=add&type=img
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002552s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.yungou.com' ) LIMIT 1   [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.001673s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003939s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001136s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.003105s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.001258s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000376s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 5 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 166 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 171 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 175 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 178 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 182 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 186 行.
+NOTIC: [8] Undefined variable: reslist E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 192 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 193 行.
+NOTIC: [8] Undefined variable: reslist E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 199 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 200 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 206 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 209 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 215 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 220 行.
+NOTIC: [8] Undefined variable: guanggao E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 223 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 237 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 250 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 382 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 383 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 393 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 397 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 400 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 402 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 407 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018552s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056044s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056519s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057167s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.057515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.058098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-08-03T18:53:30+08:00 ] 127.0.0.1 /vote/index.php?g=Home&m=Index&a=help&token=vjcbgt1414375209
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') E:\web\wwwroot\yungou.com\vote\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002662s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.yungou.com' ) LIMIT 1   [ RunTime:0.000962s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015176s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/Home/default/Public_header.html): failed to open stream: No such file or directory E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007633s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023642s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024524s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025033s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002082s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2015-08-03T18:53:37+08:00 ] 127.0.0.1 /vote/index.php?g=User&m=Diymen&a=index&token=vjcbgt1414375209
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002519s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.yungou.com' ) LIMIT 1   [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.001599s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003974s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001063s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.002880s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.001226s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `tp_diymen_set` [ RunTime:0.001280s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `tp_diymen_class` [ RunTime:0.002076s ]
+SQL: SELECT * FROM `tp_diymen_class` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `pid` = 0 ) ORDER BY sort desc  [ RunTime:0.000523s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\web\wwwroot\yungou.com\vote\31cms\Lib\Action\User\DiymenAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039688s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020383s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.060848s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061601s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.063332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-08-03T18:53:48+08:00 ] 127.0.0.1 /vote/index.php?g=User&m=Vote&a=add&type=img
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\web\wwwroot\yungou.com\vote\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002504s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.yungou.com' ) LIMIT 1   [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.001910s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004004s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000990s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.002824s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.001228s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000374s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036562s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 5 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 166 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 171 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 175 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 178 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 182 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 186 行.
+NOTIC: [8] Undefined variable: reslist E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 192 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 193 行.
+NOTIC: [8] Undefined variable: reslist E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 199 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 200 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 206 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 209 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 215 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 220 行.
+NOTIC: [8] Undefined variable: guanggao E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 223 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 237 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 250 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 382 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 383 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 393 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 397 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 400 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 402 行.
+NOTIC: [8] Undefined variable: vo E:\web\wwwroot\yungou.com\vote\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 407 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016071s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053277s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053778s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+

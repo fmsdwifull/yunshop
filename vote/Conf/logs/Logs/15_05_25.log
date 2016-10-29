@@ -1,0 +1,2302 @@
+[ 2015-05-25T10:41:18+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.018834s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.001065s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.199578s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015653s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.215313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040771s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.256162s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.257761s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.259139s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.260943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.263390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2015-05-25T10:41:18+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T10:41:18+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T10:41:18+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:46:40+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.026581s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000758s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.129072s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.130918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035480s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.166435s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.167812s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.168929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.170076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004898s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.171418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2015-05-25T12:46:40+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:46:41+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:46:41+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:46:43+08:00 ] 0.0.0.0 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005205s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.032488s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.021939s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006271s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000726s ]
+SQL: UPDATE `tp_users` SET `lasttime`=1432529203,`lastloginmonth`=5,`lastip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.000574s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.173367s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002132s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.175721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103847s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.279561s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.280693s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.281536s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.282303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003580s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.283222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-05-25T12:46:45+08:00 ] 0.0.0.0 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005712s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004925s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007083s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000760s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.024457s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004391s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.036407s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000611s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000428s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.179603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.023098s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index: id D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+NOTIC: [8] Undefined variable: myurl D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 213 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.202776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032292s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.235119s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.235996s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.237032s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.238380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004347s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.239579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2015-05-25T12:46:46+08:00 ] 0.0.0.0 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005428s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004322s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007599s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000795s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005496s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004554s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000562s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004643s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000445s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-2.128392s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index: id D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+NOTIC: [8] Undefined variable: myurl D:\www\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 213 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-2.129691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020358s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.150119s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.151301s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.152284s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.153174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004121s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.154332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2015-05-25T12:46:47+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:46:47+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:46:49+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005192s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004447s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.013412s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004215s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007723s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000749s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.015911s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.009385s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000552s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 106 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 109 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.151299s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001227s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.152579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039428s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.192061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.192905s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.193779s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.194541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004401s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.196576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-05-25T12:46:50+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:46:56+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005563s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005068s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005279s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004586s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007217s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.001354s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000726s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004759s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000604s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000726s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 106 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 109 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.065251s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.066792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017514s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.084363s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.085450s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.086280s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.086955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.087886s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-05-25T12:46:56+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:47:09+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005614s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.007367s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004607s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.006298s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009457s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000788s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000768s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004688s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000846s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000655s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000603s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 106 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 109 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.073096s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.074674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022940s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.097666s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.099047s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.100680s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.101381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004553s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.102334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2015-05-25T12:47:09+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:47:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-05-25T12:49:59+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:50:14+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:50:33+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004958s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005499s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004052s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004164s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008261s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000690s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004381s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000608s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000648s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000658s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000691s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 106 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 109 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.060396s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.061291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015908s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.077255s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.078143s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.079069s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.079838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003370s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.080729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2015-05-25T12:50:33+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:50:37+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004911s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004779s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004216s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003822s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007520s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004465s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000819s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000600s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 106 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 109 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.062553s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001601s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.064210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017778s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.082043s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.083023s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.084019s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.084662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003472s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.085598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-05-25T12:50:37+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:50:46+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004960s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005053s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004477s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004100s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007082s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004487s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000582s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000727s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000689s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 106 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 109 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.061305s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.062497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017220s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.079773s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.080626s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.081491s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.082207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003344s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.083212s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2015-05-25T12:50:46+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:50:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-05-25T12:53:58+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007842s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005145s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004294s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004109s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007525s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000663s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004186s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000731s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000646s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000668s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 130 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.066611s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001441s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.068104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018336s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.086497s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.087454s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.088371s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.089116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003587s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.090181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-05-25T12:53:59+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:54:02+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005130s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005136s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004379s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004031s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007621s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000653s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004346s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000734s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000658s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 130 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.062624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.063802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015741s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.079598s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.080451s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.081336s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.082084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.082933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2015-05-25T12:54:02+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:54:09+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007277s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006479s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.006620s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005833s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009967s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000965s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004809s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000618s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000552s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000609s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 101 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 130 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.063218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.064533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016252s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.080845s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.081693s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.082525s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.083195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003328s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.084355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2015-05-25T12:54:09+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T12:54:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-05-25T13:04:37+08:00 ] ERR: (ThinkException) Table 'toupiaox.tp_vote_item_record' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_vote_item_record`
+[ 2015-05-25T13:04:41+08:00 ] ERR: (ThinkException) Table 'toupiaox.tp_vote_item_record' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_vote_item_record`
+[ 2015-05-25T13:05:15+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006191s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005221s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004348s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004306s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008168s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000593s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000585s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000588s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000575s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.067903s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001106s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.069057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015687s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.084801s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.085582s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.086390s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.086977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002936s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.087824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-05-25T13:05:15+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:05:22+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:06:49+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007482s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006550s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005867s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.006068s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011715s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000724s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004559s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000599s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000559s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.082911s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.084292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016800s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.101128s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.101995s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.102841s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.103610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.104668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-05-25T13:06:49+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:07:34+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005263s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004339s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.003960s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004273s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006976s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000673s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.003960s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000573s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000596s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.065236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001330s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.066621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017314s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.084159s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.085138s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.086082s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.086819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003751s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.087941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2015-05-25T13:07:34+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:08:06+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.014912s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.008442s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.007261s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005698s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010112s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000601s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000717s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000586s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000686s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000635s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.088510s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001385s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.089960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017274s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.107288s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.108159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.109035s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.109694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.110629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2015-05-25T13:08:06+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:15:22+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006372s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004388s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004181s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004557s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007034s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000664s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000611s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000582s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000624s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.068698s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001341s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018845s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.088982s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.090272s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.091583s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.092382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.093993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2015-05-25T13:21:57+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.021219s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004977s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005436s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005029s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007552s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000766s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.005838s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000694s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000667s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000631s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.089810s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.091724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021109s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.112889s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.113784s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.115014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.116382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004616s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.117749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2015-05-25T13:21:57+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:22:23+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007498s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004968s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.003941s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004586s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007244s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000517s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000671s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000568s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.066978s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001332s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.068361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016821s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.085260s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.086375s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.087252s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.087895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003431s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.088775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-05-25T13:22:25+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005948s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005023s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004352s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004388s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007883s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000691s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004910s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000563s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000595s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000596s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.071913s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.073731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017865s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.091668s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.092488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.093329s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.094001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.094884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-05-25T13:22:26+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005491s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000591s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.113583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001374s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.115013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009758s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.124816s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.125579s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.126704s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.127797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004104s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.128998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-05-25T13:22:26+08:00 ] ERR: (ThinkException) 无法加载模块:i
+[ 2015-05-25T13:22:26+08:00 ] ERR: (ThinkException) 无法加载模块:im
+[ 2015-05-25T13:22:26+08:00 ] ERR: (ThinkException) 无法加载模块:ima
+[ 2015-05-25T13:22:26+08:00 ] ERR: (ThinkException) 无法加载模块:imag
+[ 2015-05-25T13:22:26+08:00 ] ERR: (ThinkException) 无法加载模块:image
+[ 2015-05-25T13:22:31+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:32+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:32+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:32+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:33+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:33+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:33+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:34+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:22:36+08:00 ] ERR: (ThinkException) 无法加载模块:images
+[ 2015-05-25T13:25:07+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005369s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004881s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004361s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004128s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007947s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000744s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.006182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000444s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000648s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000645s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.084412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001359s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.085823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020700s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.106606s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.107574s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.108808s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.109835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004407s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.111143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2015-05-25T13:25:07+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:26:17+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.018141s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004965s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004847s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005621s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007455s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000856s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.005532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000705s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000646s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000545s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000722s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.086236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001543s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.087876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018533s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.106419s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.107346s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.108238s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.108903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003318s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.109843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2015-05-25T13:26:17+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:31:40+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.016386s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004847s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005467s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003984s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006836s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000813s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000795s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004901s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000682s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000615s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000608s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.081073s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.082604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018860s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.101517s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.102509s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.103372s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.104129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003580s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.105215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-05-25T13:31:40+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:31:40+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:32:07+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.008604s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006425s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005823s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004698s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007440s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000638s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000597s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000591s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000572s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.081416s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001446s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.082909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018505s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.101468s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.102325s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.103256s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.103951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003308s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.104863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-05-25T13:32:07+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:32:32+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005374s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005491s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004179s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003919s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007008s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000617s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000678s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.007701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000444s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000671s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000618s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000654s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.070872s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001396s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.072318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018478s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.090850s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.093189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.094168s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.094832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004813s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.095752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-05-25T13:32:32+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:32:51+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007552s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006828s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.006498s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005227s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006984s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000556s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004755s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004707s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000394s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000682s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000642s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000688s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.078521s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001325s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.079896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017349s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.097300s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.098425s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.099309s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.100074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003638s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.101030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2015-05-25T13:32:51+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:33:20+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.008868s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006968s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.007683s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.009334s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.040390s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.006410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004733s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000413s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000707s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.001144s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.146369s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.147978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017528s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.165564s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.166589s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.167502s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.168140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003459s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.169136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2015-05-25T13:33:20+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:33:20+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:33:48+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007426s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005975s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004808s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003908s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006641s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000682s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.006147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.003974s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000621s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000621s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000699s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.084169s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.085460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019740s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.105254s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.106140s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.106991s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.107737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003347s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.108897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2015-05-25T13:33:48+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:33:48+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:34:35+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005589s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006198s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004796s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005052s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007861s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000636s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000795s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.005827s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000654s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.073502s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.074978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018056s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.093094s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.094053s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.095012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.095663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006470s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.099661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2015-05-25T13:34:35+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:34:35+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:39:21+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005805s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005090s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.003981s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005221s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007456s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000517s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000716s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000648s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000602s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000569s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.080019s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.081550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019185s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.100766s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.101631s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.102544s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.103213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003294s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.104179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2015-05-25T13:39:21+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:41:06+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005265s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005043s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004166s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005225s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007383s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000514s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.005652s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000348s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000591s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000565s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000647s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.068746s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.089117s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.090027s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.091087s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.091790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003539s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.092743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-05-25T13:41:06+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:41:13+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.017286s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004704s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004312s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004277s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007313s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000603s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000786s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004434s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000736s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000649s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.081014s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001471s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.082549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019577s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.102266s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.103459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.104354s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.105004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003758s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.106104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2015-05-25T13:41:13+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:42:01+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005922s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004918s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004519s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003914s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006809s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000640s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000954s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004974s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000873s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000734s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000637s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000652s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.074944s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001705s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.076724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020682s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.097551s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.100329s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.101969s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.103123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006804s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.104444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2015-05-25T13:42:01+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:43:37+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005629s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006040s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004932s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004051s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007725s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000492s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000659s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000773s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004417s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000587s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000571s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000568s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.077222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.078423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.095539s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.096512s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.097529s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.098089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003307s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.098929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2015-05-25T13:43:37+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T13:45:36+08:00 ] 0.0.0.0 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005958s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005033s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004449s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004015s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007532s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000682s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004792s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000544s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000586s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.070989s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001325s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.072415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018799s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.091220s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.092143s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.092987s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.093658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003299s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.094605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-05-25T13:45:36+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T14:00:43+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-05-25T14:00:45+08:00 ] 192.168.1.100 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005056s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://192.168.1.100' ) LIMIT 1   [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005115s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004174s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004856s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007068s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000747s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.005521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.003899s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000584s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000603s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000610s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.068993s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018865s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.089637s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.090543s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.091453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.092190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003436s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.093169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-05-25T14:00:45+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T14:00:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-05-25T14:00:52+08:00 ] 192.168.1.101 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.011469s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://192.168.1.100' ) LIMIT 1   [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.006812s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.006061s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.006866s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008209s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000646s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.005218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000625s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.001266s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000653s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.086494s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001597s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.088143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020425s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.108622s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.109566s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.110548s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.111290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003765s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.112477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2015-05-25T14:00:52+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T14:01:28+08:00 ] 192.168.1.101 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005225s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://192.168.1.100' ) LIMIT 1   [ RunTime:0.015374s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005607s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004847s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004206s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007983s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000834s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.005066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004726s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000751s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000687s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000584s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.091411s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001207s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.092666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017580s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.110300s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.111161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.112011s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.112666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003176s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.113563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-05-25T14:01:28+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T14:01:42+08:00 ] 192.168.1.101 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005061s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://192.168.1.100' ) LIMIT 1   [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004448s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.005707s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003859s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007148s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000696s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000652s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000537s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000582s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.068801s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017660s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.087749s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.088639s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.089574s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.090326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003507s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.091359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2015-05-25T14:01:42+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-05-25T14:02:42+08:00 ] 192.168.1.101 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004946s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://192.168.1.100' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005045s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004015s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003803s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007596s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000703s ]
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index: search D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.004228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.006289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000584s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000577s ]
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: vcount D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [2] Division by zero D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 104 行.
+NOTIC: [8] Undefined variable: show D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\www\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.065652s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.066804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017010s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.083838s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.084823s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.085607s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.086159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003076s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.087030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-05-25T14:02:42+08:00 ] ERR: (ThinkException) 无法加载模块:tpl

@@ -1,0 +1,91 @@
+<include file="Public:head"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="keywords" content="{31cms::C('keyword')}" />
+<meta name="description" content="{31cms::C('content')}" />   
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/bootstrap_min.css?2013-9-13-2" media="all" />
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/bootstrap_responsive_min.css?2013-9-13-2" media="all" />
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/sstyle.css?2013-9-13-2" media="all" />
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/todc_bootstrap_button.css?2013-9-13-2" media="all" />
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/themes.css?2013-9-13-2" media="all" />
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/daterangepicker.css?2013-9-13-2" media="all" />
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/inside.css?2013-9-13-2" media="all" />
+<link rel="stylesheet" type="text/css" href="{31cms::RES}/css/vote/chosen.css?2013-9-13-2" media="all" />
+<script type="text/javascript" src="{31cms::RES}/js/jQuery.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/jquery_ui_widget_min.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/bootstrap_min.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/jquery_form_min.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/jquery_validate_min.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/jquery_validate_methods.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/jquery_form_wizard_min.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/daterangepicker.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/moment_min.js?2013-9-13-2"></script>
+<script type="text/javascript" src="{31cms::RES}/js/inside.js?2013-9-13-2"></script>
+<title>{31cms::C('site_name')}-{31cms::C('site_title')}</title>
+
+<div class="content">
+
+<div class="box">
+<div class="box-title">
+                            <div class="span10">
+                                <h3>关注时自动回复内容 <span class="FAQ">可参考右边的范例来写,关注回复文字的信息，回复帮助也是此信息！</span></h3>
+                            </div>
+                            <div class="span2"><a class="btn btn-primary btn_submit  J_ajax_submit_btn" href="Javascript:window.history.go(-1)">返回</a></div>
+                        </div>
+         <div class="zdhuifu">
+                  <form method="post"  action="{31cms::U('Areply/insert')}">
+                  <input type="hidden" name="wxid" value="gh_858dwjkeww5"  />
+  
+  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+  <tr><td height="5"></td><td></td></tr>
+<tr>
+<td valign="top" width="420"><textarea class="px" style="width:420px; height:500px; margin:5px 0"  id="Hfcontent" name="content">
+{31cms:$areply.content}
+</textarea><p> <input name="home" type="checkbox" <if condition="$areply['home'] eq 1">checked="checked"</if> value="1"   />若是想关注回复多图，此项必须沟选 </p><p>
+关键词：<input type="text" style="width:100px;" class="px" id="keyword" value="{31cms:$areply.keyword}" name="keyword" style="width:500px" ><br/>例：填写"功能",系统会检索包含最近发布的9条信息，若想关注回复回复首页,此项请填写 首页<br/></td>
+<td valign="top">
+     	<div class="zdhuifu" style="margin-left:20px">
+<h4>参考范例：</h4>
+输入编号为选手投票<br/>
+输入"报名"参与投票<br/>
+输入"投票"查看投票信息<br/>
+
+</div></td>
+</tr>
+<tr>
+<td height="50">
+       
+<input type="submit" value="保存"  name="sbmt"   class="btn btn-primary btn_submit  J_ajax_submit_btn"  />
+
+<script type="text/javascript">
+function jsbq(srt){
+document.getElementById("Hfcontent").value=document.getElementById("Hfcontent").value+"/"+srt;
+}
+</script>
+
+
+</td><td valign="top">
+</tr>
+</table>
+</form>
+      </div>
+        </div>
+
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+$(document).ready( function(){ 
+$('.checkall').click(function(){
+
+$('.checkitem').each(function(){
+$(this).attr('checked',$('.checkall').attr('checked'));
+});
+});
+
+});
+  </script>
+  <!--底部-->
+  	</div>
+<include file="Public:footer"/>	

@@ -1,0 +1,1417 @@
+[ 2015-07-27T09:38:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.126834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.127199s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006062s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000402s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.873470s ]
+INFO: [ view_template ] --END-- [ RunTime:0.110633s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.984374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.829937s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.814377s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.911855s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.994185s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.124868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.463185s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.277808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.097785s ]
+
+[ 2015-07-27T09:38:53+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:38:53+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:38:53+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:39:07+08:00 ] 127.0.0.1 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004674s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006424s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002997s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002758s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: UPDATE `tp_users` SET `diynum`=0,`connectnum`=0,`activitynum`=0 WHERE ( `id` = 1 ) [ RunTime:0.000332s ]
+SQL: UPDATE `tp_users` SET `lasttime`=1437961147,`lastloginmonth`=7,`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000268s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.422883s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001535s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.424485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303387s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.727928s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.729101s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.730175s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.730913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.731811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-07-27T09:39:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:39:09+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006766s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.007034s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006624s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004439s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004135s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.003150s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000334s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000217s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.447075s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.448214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116634s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.564904s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.565316s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.565787s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.566046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001536s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.566525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2015-07-27T09:39:10+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:39:10+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:39:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:39:19+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help&token=vjcbgt1414375209
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.039648s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052513s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002231s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/Home/default/Public_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\APMServ\www\htdocs\31cms\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.054805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064267s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.119124s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.120712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.122042s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.123237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005359s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.124560s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2015-07-27T09:39:20+08:00 ] ERR: (ThinkException) 无法加载模块:style
+[ 2015-07-27T09:39:20+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:39:21+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:39:21+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:43:33+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=gongzhong&id=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.002985s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003917s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003721s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.002943s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002643s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.003611s ]
+SQL: SELECT * FROM `tp_users` WHERE id=1 LIMIT 1   [ RunTime:0.000615s ]
+SQL: SELECT * FROM `tp_areply` WHERE uid=1 LIMIT 1   [ RunTime:0.000194s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042467s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002095s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  title D:\APMServ\www\htdocs\Conf\logs\Cache\User\2c82b2a3ea1058422dd13bc243082fe2.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.088441s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.091244s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.093163s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.094865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007351s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.095881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2015-07-27T09:43:33+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:43:33+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:43:35+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:43:35+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:43:36+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=check&id=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003917s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002579s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003953s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004019s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002212s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.002939s ]
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.003307s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id desc  [ RunTime:0.000463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `status` = 0 ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `status` = 0 ) ORDER BY id DESC LIMIT 0,60   [ RunTime:0.000601s ]
+NOTIC: [8] Undefined variable: vote D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 486 行.
+SQL: SELECT SUM(vcount) AS tp_sum FROM `tp_vote_item` WHERE ( `vid` = null ) LIMIT 1   [ RunTime:0.000240s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.085396s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\2b7557acba6d3dbbf4385ab2f248220d.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.087472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036170s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.123705s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.125136s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.126470s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.128064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005062s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.129051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002167s ]
+
+[ 2015-07-27T09:43:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:49:20+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003134s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002610s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004739s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000581s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.003375s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002192s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.002563s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000402s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000186s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041343s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002168s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023548s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067204s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.068554s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069419s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003964s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2015-07-27T09:49:20+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:49:20+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:49:22+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=useredit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() D:\APMServ\www\htdocs\31cms\Lib\Action\User\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003071s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002228s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004757s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000392s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.002914s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002151s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000440s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052337s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.052781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076945s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.129814s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.130420s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.130788s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.131658s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2015-07-27T09:49:22+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:49:22+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:49:24+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004046s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003249s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004127s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.003466s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002103s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.002823s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000310s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000176s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040256s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021253s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061965s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062567s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063230s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002130s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2015-07-27T09:49:24+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:49:24+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T09:49:25+08:00 ] 127.0.0.1 /index.php?g=User&m=Diymen&a=index&token=vjcbgt1414375209
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004381s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005571s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005882s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000894s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.003560s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002413s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000588s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `tp_diymen_set` [ RunTime:0.003258s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `tp_diymen_class` [ RunTime:0.003253s ]
+SQL: SELECT * FROM `tp_diymen_class` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `pid` = 0 ) ORDER BY sort desc  [ RunTime:0.000329s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\DiymenAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.111428s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.112414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305309s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.417814s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.418477s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.419099s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.419479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002181s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.420415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-07-27T09:49:25+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:49:26+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:49:26+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T09:49:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:05:55+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004203s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002231s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003846s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004563s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002115s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.002412s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000290s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000207s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028803s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.075277s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.076451s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.077857s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.078736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004366s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.079736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2015-07-27T10:05:55+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:05:55+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:05:57+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004494s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000371s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010628s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007301s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019133s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019479s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-07-27T10:05:57+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:05:57+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:05:57+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:05:59+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007054s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000507s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016784s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009412s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027168s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.027553s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2015-07-27T10:05:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:06:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003198s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000348s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015353s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001474s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031861s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032817s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033816s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003648s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-07-27T10:06:34+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:06:41+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:12:38+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003226s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000344s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016522s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002144s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017643s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036457s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037867s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039377s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005503s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2015-07-27T10:12:38+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:23:35+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003148s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000557s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021468s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002390s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013042s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037005s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039318s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041362s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008453s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2015-07-27T10:23:38+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:23:38+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:23:39+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:23:39+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:23:58+08:00 ] 127.0.0.1 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004355s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008242s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003376s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004315s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000802s ]
+SQL: UPDATE `tp_users` SET `lasttime`=1437963838,`lastloginmonth`=7,`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000454s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041663s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010986s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054218s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055487s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057794s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.059038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2015-07-27T10:23:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:23:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:23:59+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003727s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002812s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004866s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004879s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002402s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.003894s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000464s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000381s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022094s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066640s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067231s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068320s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-07-27T10:23:59+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:01+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:01+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:01+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:05+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=add&type=img
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005573s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005913s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005148s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001192s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004719s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002909s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000577s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048271s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001375s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 5 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 166 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 171 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 175 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 178 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 182 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 186 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 192 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 193 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 199 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 200 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 206 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 209 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 215 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 220 行.
+NOTIC: [8] Undefined variable: guanggao D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 223 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 237 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 250 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 382 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 383 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 393 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 397 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 400 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 402 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 407 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082933s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.132693s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.133781s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.134728s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.135495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003655s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.136431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2015-07-27T10:24:06+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:06+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:06+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:16+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004619s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003580s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005580s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005207s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003429s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.003666s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000229s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000190s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.060818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.063508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036316s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.099938s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.102667s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.104184s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.105496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007658s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.107895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2015-07-27T10:24:16+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:16+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:16+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:17+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help&token=vjcbgt1414375209
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004979s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000827s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013196s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001758s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/Home/default/Public_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\APMServ\www\htdocs\31cms\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012408s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027652s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028754s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001782s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-07-27T10:24:17+08:00 ] ERR: (ThinkException) 无法加载模块:style
+[ 2015-07-27T10:24:17+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:17+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:25+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004373s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005273s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003833s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005423s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001236s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005523s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004584s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005284s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000432s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000321s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.061898s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005451s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.067391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045809s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.113320s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.115761s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.118231s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.120345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.121587s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005022s ]
+
+[ 2015-07-27T10:24:26+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:27+08:00 ] 127.0.0.1 /index.php?g=User&m=Diymen&a=index&token=vjcbgt1414375209
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003026s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003131s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007152s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004170s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.006690s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `tp_diymen_set` [ RunTime:0.003104s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `tp_diymen_class` [ RunTime:0.004257s ]
+SQL: SELECT * FROM `tp_diymen_class` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `pid` = 0 ) ORDER BY sort desc  [ RunTime:0.000293s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\DiymenAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.057765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.059351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041233s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.100649s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101717s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.103643s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.105258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.106271s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-07-27T10:24:27+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:27+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:27+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:27+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:28+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:28+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:28+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:31+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003113s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006023s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004600s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004768s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003342s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.002848s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000673s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000297s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.047024s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027917s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.075982s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.076571s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.077218s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.077676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002440s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.078649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2015-07-27T10:24:31+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:31+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:31+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:35+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=gongzhong&id=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004970s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002652s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005376s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001609s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004623s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002367s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.002360s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.003574s ]
+SQL: SELECT * FROM `tp_users` WHERE id=1 LIMIT 1   [ RunTime:0.002021s ]
+SQL: SELECT * FROM `tp_areply` WHERE uid=1 LIMIT 1   [ RunTime:0.000226s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.047236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001048s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  title D:\APMServ\www\htdocs\Conf\logs\Cache\User\2c82b2a3ea1058422dd13bc243082fe2.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.048351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014902s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.063312s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063848s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064506s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.064923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002655s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.066114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2015-07-27T10:24:35+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:35+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:35+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:37+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003058s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003463s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006238s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005424s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003649s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.003956s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000519s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000264s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046693s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074581s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.075101s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.075752s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.076143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.076596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2015-07-27T10:24:37+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:39+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=add&type=img
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004516s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003591s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005025s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005141s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003123s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000323s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041356s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001515s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 5 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 166 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 171 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 175 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 178 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 182 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 186 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 192 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 193 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 199 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 200 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 206 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 209 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 215 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 220 行.
+NOTIC: [8] Undefined variable: guanggao D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 223 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 237 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 250 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 382 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 383 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 393 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 397 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 400 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 402 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 407 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.042955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028722s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.071721s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.072439s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.073717s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.074308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002969s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.074771s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2015-07-27T10:24:39+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:39+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:39+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:52+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=add&type=img
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003885s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002653s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008202s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.003386s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002548s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000510s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039536s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001746s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 5 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 166 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 171 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 175 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 178 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 182 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 186 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 192 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 193 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 199 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 200 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 206 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 209 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 215 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 220 行.
+NOTIC: [8] Undefined variable: guanggao D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 223 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 237 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 250 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 382 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 383 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 393 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 397 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 400 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 402 行.
+NOTIC: [8] Undefined variable: vo D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 407 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029879s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.071240s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.071789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.072263s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002060s ]
+
+[ 2015-07-27T10:24:52+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:24:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:24:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:25+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=add&type=img
+NOTIC: [2] htmlspecialchars() expects parameter 1 to be string, array given D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\App.class.php 第 64 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003206s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.003173s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003466s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007504s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001337s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004601s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002766s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.001022s ]
+NOTIC: [8] Undefined index:  add D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 140 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.003861s ]
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.002470s ]
+SQL: SHOW COLUMNS FROM `tp_guanggao` [ RunTime:0.002898s ]
+SQL: INSERT INTO `tp_vote` (`keyword`,`title`,`qtxinxi`,`picurl`,`wappicurl`,`showpic`,`info`,`jiangpin`,`cknums`,`votelimit`,`statdate`,`enddate`,`zdyname`,`token`,`type`,`status`) VALUES ('投票','测试','测试','','',0,'测试','测试',1,0,1437963900,1438223100,'','vjcbgt1414375209','img',1) [ RunTime:0.001477s ]
+NOTIC: [8] Undefined variable: item_add D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 191 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 191 行.
+NOTIC: [8] Undefined variable: guanggao_add D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 210 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 210 行.
+SQL: SHOW COLUMNS FROM `tp_keyword` [ RunTime:0.003687s ]
+SQL: INSERT INTO `tp_keyword` (`pid`,`module`,`token`,`keyword`) VALUES (18,'Vote','vjcbgt1414375209','投票') [ RunTime:0.001936s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.067139s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.067543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008877s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.076536s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.077093s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.077558s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.077909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.078524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2015-07-27T10:25:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:26+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index&token=vjcbgt1414375209
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003075s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002661s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005724s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.003266s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002302s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000689s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005645s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000508s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.049695s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002595s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 217 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 218 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 219 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.052348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026167s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.078577s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.080665s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.082297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.083616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006374s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.085147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2015-07-27T10:25:27+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:25:27+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:27+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:28+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=edit&type=img&id=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003517s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003369s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005349s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004290s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004775s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.002522s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `id` = 18 ) AND ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `id` = 18 ) AND ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.003596s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY rank DESC  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `tp_guanggao` [ RunTime:0.003548s ]
+SQL: SELECT * FROM `tp_guanggao` WHERE ( `vid` = 18 )  [ RunTime:0.000320s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.057598s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003061s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 5 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 192 行.
+NOTIC: [8] Undefined variable: reslist D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 199 行.
+NOTIC: [8] Undefined index:  picurl_guanggao D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 237 行.
+NOTIC: [8] Undefined index:  picurl_guanggao D:\APMServ\www\htdocs\Conf\logs\Cache\User\06910c565e1450d396eed27237367a2f.php 第 250 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.060730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036403s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097193s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098872s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.100933s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006804s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.104276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2015-07-27T10:25:29+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:25:29+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:29+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:31+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004900s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006427s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007226s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000635s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.008183s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003071s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.001306s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.005038s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000653s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.001823s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.075095s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 217 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 218 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 219 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.078550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038556s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.117174s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.118976s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.123397s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.126206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010462s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.127730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002280s ]
+
+[ 2015-07-27T10:25:32+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:25:32+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:32+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:33+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=eitem&token=vjcbgt1414375209&id=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004162s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.002396s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006341s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004939s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005600s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.002887s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY id DESC LIMIT 0,60   [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: vote D:\APMServ\www\htdocs\31cms\Lib\Action\User\VoteAction.class.php 第 824 行.
+SQL: SELECT SUM(vcount) AS tp_sum FROM `tp_vote_item` WHERE ( `vid` = null ) LIMIT 1   [ RunTime:0.000127s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.053817s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002446s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\81da8b6e05eaad148eb0c454090d4123.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.056340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085871s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.142262s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.144161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.145664s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.147169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005547s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.147892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2015-07-27T10:25:33+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:33+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:37+08:00 ] 127.0.0.1 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004284s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004132s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005764s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.003430s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.003758s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004022s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000581s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000282s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.056368s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002432s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: info D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 5 行.
+NOTIC: [8] Undefined variable: ok D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 217 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 218 行.
+NOTIC: [8] Undefined variable: myurl D:\APMServ\www\htdocs\Conf\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 219 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.058879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041249s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.100162s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101727s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.103563s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.105679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006490s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.106746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2015-07-27T10:25:38+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:25:38+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:25:38+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:38+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:45+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Vote&a=index&token=vjcbgt1414375209&tid=18
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002757s ]
+NOTIC: [2048] Declaration of VoteAction::show() should be compatible with that of Action::show() D:\APMServ\www\htdocs\31cms\Lib\Action\Wap\VoteAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\APMServ\www\htdocs\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.003457s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://test.gope.cn' ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `tp_vote` [ RunTime:0.004524s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.004384s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005391s ]
+SQL: SELECT `uid` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `id` = 18 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index:  search D:\APMServ\www\htdocs\31cms\Lib\Action\Wap\VoteAction.class.php 第 55 行.
+NOTIC: [8] Undefined index:  search D:\APMServ\www\htdocs\31cms\Lib\Action\Wap\VoteAction.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `tp_vote_item` [ RunTime:0.002729s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `tp_vote_record` [ RunTime:0.003141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` LIMIT 1   [ RunTime:0.000432s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,6   [ RunTime:0.000798s ]
+SQL: SELECT * FROM `tp_vote_record` WHERE ( `wecha_id` = null ) AND ( `vid` = 18 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 18 ) AND ( `status` = 1 ) ORDER BY `rank` asc,`id` desc LIMIT 0,6   [ RunTime:0.000290s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\APMServ\www\htdocs\31cms\Lib\Action\Wap\VoteAction.class.php 第 103 行.
+NOTIC: [8] Undefined variable: show D:\APMServ\www\htdocs\31cms\Lib\Action\Wap\VoteAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: total D:\APMServ\www\htdocs\31cms\Lib\Action\Wap\VoteAction.class.php 第 136 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.077287s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002135s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.079484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040083s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.119635s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.124154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.126054s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.127332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008300s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.128016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2015-07-27T10:25:46+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-07-27T10:25:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-07-27T10:25:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico

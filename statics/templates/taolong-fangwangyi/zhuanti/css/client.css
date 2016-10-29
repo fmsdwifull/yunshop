@@ -1,0 +1,179 @@
+﻿@charset "utf-8";
+@import url("comm.css");/*2015.06.11 新增*/
+#fullPage-nav { _display: none; font-size: 12px;}
+#fullPage-nav li { width: 90px; height: 21px; margin: 10px 0 0; vertical-align: middle;}
+#fullPage-nav li a { float: right; width: 21px; height: 21px; color: #8F9DA4; text-decoration: none; text-align: right; background: url(../../img/front/cloud_global/fullPage/dot.png) 5px 5px no-repeat;}
+#fullPage-nav li .active { background-position: 0 bottom;}
+#fullPage-nav span { display: none;}
+.fullPage-tooltip { float: left; top: 0; margin-right: 5px; font: 12px "Microsoft Yahei"; color: #8F9DA4; line-height: 21px;}
+.section { position: relative; overflow: hidden;}
+.section .bg { position: absolute; left: 0; top: 0; width: 100%; height: 100%;background-color:#fe684f;}
+.section2 .bg{background-color:#64bddd;}
+.section3 .bg{background-color:#ffd02c;}
+.section4 .bg{background-color:#8dc540;}
+.section5 .bg{background-color:#fd9e5e;}
+
+.bg62 { position: absolute; left: 10%; bottom: 12%; width: 520px; height: 284px; margin-left: -527px;  transition: all 1s;opacity:0;}
+
+.txt6 p { margin-bottom: 17px; color: #5C7970;}
+.bg_cloud{width:100%;height:100%;background: url(../../zhuanti/img/weixin/cloud_bj.png) no-repeat top;position:absolute;top:210px;}
+
+/* CSS3过度及动画 */
+.active strong, .active h3 { opacity: 1; -webkit-transform:scale(1, 1); transform:scale(1, 1); transition-delay: 0.7s;}
+.active .p1 { opacity: 1; transition-delay: 1.6s;}
+.active .bg12 { bottom: 90px; opacity: 1; transition-delay: 0.7s; }
+.active .bg13 { bottom: 0; opacity: 1; transition-delay: 0.7s;}
+.active .hgroup,.active .ready { opacity: 1; -webkit-transform:scale(1, 1); transform:scale(1, 1); transition-delay: 1s;}
+.active .ready{transition-delay: 3s;}
+.active .bg21 { opacity: 1; margin-left: -608px; transition-delay: 0.7s;}
+.active .bg23 { bottom: 15%; transition-delay: 0.7s;}
+.active .bg22 { margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+.active .bg61 { top: 0; transition-delay: 0.7s;}
+.active .bg62 { left: 52%; opacity: 1; transition-delay: 1.4s;}
+.active .txt6 { left: 39%; opacity: 1; transition-delay: 1.4s;}
+/* for lt ie 10 */
+.ltie10 strong, .ltie10 h3 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
+.ltie10 .p1 { opacity: 1; transition-delay: 9s;}
+.ltie10 .bg12 { bottom: 90px; opacity: 1; transition-delay: 0.7s; }
+.ltie10 .bg13 { bottom: 0; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .hgroup { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
+.ltie10 .mail { top: 25px; transition-delay: 0.7s;}
+.ltie10 .p11 { opacity: 1; transition-duration: 1s; transition-delay: 2s;}
+.ltie10 .bg21 { opacity: 1; margin-left: -608px; transition-delay: 0.7s;}
+.ltie10 .bg23 { bottom: 15%; transition-delay: 0.7s;}
+.ltie10 .bg22 { margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .p3 { margin-left: -480px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .bg31, .ltie10 .bg32 { opacity: 1; transition-delay: 1s;}
+.ltie10 .bg33 { margin-left: -120px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .bg61 { top: 0; transition-delay: 0.7s;}
+.ltie10 .bg62 { left: 50%; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .txt6 { left: 50%; opacity: 1; transition-delay: 0.7s;}
+
+
+.active .bg62s{left:56%;}
+.txt6s{background:none;bottom:38%;color:#58595b;}
+.txt6s li{line-height:34px;}
+.active .txt6s{left:42%;width:538px;}
+.bg62_one{background: url(../../zhuanti/img/one_left.png) no-repeat;height:480px;background-size:250px 480px;bottom:10%;}
+.txt_one{background: url(../../zhuanti/img/one_right.png) no-repeat;width:754px;background-size:600px 336px;height:396px;bottom:17%}/*2015.06.11 修改background-size*/
+.active .bg62{left:54%;}
+.bg62_two{background: url(../../zhuanti/img/two_left.png) no-repeat;height:480px;}
+.txt_two{background: url(../../zhuanti/img/two_right.png) no-repeat;height:547px;}
+.active .bg62_two{left:50%;}
+.active .txt_two{left:43%;}
+.bg62_four{background: url(../../zhuanti/img/four_left.png) no-repeat;}
+.txt_four{width:599px;height:620px;bottom:16%;background: url(../../zhuanti/img/four_right.png) no-repeat;}
+.bg62_five{width:588px;height:611px;background: url(../../zhuanti/img/five_left.png) no-repeat;}
+.txt_five{width:498px;height:351px;background: url(../../zhuanti/img/five_right.png) no-repeat;}
+.active .bg62_five{left:48%;top:14%;}
+.active .txt_five{left:50%;top:22%;}
+.bg62_three{background: url(../../zhuanti/img/three_left.png) no-repeat;}
+.txt_three{background: url(../../zhuanti/img/three_right.png) no-repeat;}
+.active .bg62_three{top:20%;}
+.active .txt_three{top:34%;}
+.active .txt1{left:40%;}
+/*2015.06.11 start*/
+.c_send_down{margin-top:190px;margin-left:200px;_margin-left:100px;}
+.c_send_tel{overflow:hidden;}
+.c_send_tel input{border-style:none;padding:0 10px;width:218px;height:54px;float:left;font-size:18px;font-family:microsoft Yahei;border-top-left-radius:3px;border-bottom-left-radius:3px;border:1px solid #C9D9DF;box-shadow:1px 1px 4px #dcecec inset;}
+.c_send_tel a{position:relative;z-index:4;display:block;float:left;height:56px;width:82px;background-color:#ee2e0f;color:#fff;font-size:18px;text-align:center;line-height:56px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom:1px solid #981C0A;}
+
+.active .bgw1{bottom:14%}
+.active .txt1{bottom:20%}
+.active .bgw2{bottom:20%;left:46%;}
+.bgw2{width:600px;}
+.active .txt2{left:46%;}
+.c_kik_cloud{margin-right:20px;float:left;width:212px;height:190px;background:url(../../zhuanti/img/weixin/cloud_kik.png) no-repeat 20px 0;}
+.c_send2{margin-left:0px;margin-top:270px;}
+.c_send_right{float:left;margin-top:30px;}
+.c_send2 .c_send_tel a{background:#008cbe;border-bottom:1px solid #00759F;}
+.txt3{width:560px;}
+.active .bgw3{left:46%;}
+.active .txt3 {top: 24%;left:48%;width: 560px;}
+.c_send3 .c_send_tel a{background-color:#ffa200;border-bottom:1px solid #B67400;}
+.bgw4{width:560px;}
+.active .bgw4{top:20%;left:48%;width: 560px;}
+.active .txt4{left:46%;}
+.c_send4 .c_kik_cloud,.c_send5 .c_kik_cloud{margin-left:-16px;}
+.c_send4 .c_send_tel a{background-color:#45ae33;border-bottom:1px solid #29701B;}
+.c_send5 .c_send_tel a{background-color:#fd5c41;border-bottom:1px solid #95301D;}
+.txt5{width:580px;}
+.active .bgw5{left:46%;}
+.dialog{width: 360px;position: fixed;_position: absolute;left: 50%;top: 50%;margin-top: -100px;margin-left: -180px;z-index: 100000;display:none;}
+.dialog-wrap {border: 5px solid rgba(0,0,0,.3);border-radius: 3px;}
+.fbg {background: #fff;}
+.dialog-head {padding: 10px 10px 0 0;}
+.tel_close {width: 20px;height: 17px;float: right;font-size:30px;color:#333;position:relative;top:-16px;}
+.dialog-content, .dialog-footer {text-align: center;margin: 25px 0;}
+.dialog-content-t {font-size: 25px;color: #000;}
+.dialog-content-d {font-size: 14px;}
+.dialog-footer {padding-bottom: 25px;margin-bottom: 0;}
+.dialog-but {display: inline-block;width: 83px;line-height: 44px;height: 44px;border-radius: 7px;font-size: 16px;color: #fff;background: #ff4a00;text-align: center;}
+/*2015.06.11 end*/
+@media (max-height:700px){
+	.bgw1{background-size:190px 360px;top:36%;}
+	.cloud_bottom{background:none;}
+	.txt1{top:38%;}
+	.txt2{bottom:10%;}
+	.active .bgw3{top:10%;}
+	.txt4{top:8%;}
+	.bgw4{top:30%;}
+	.active .bgw5{top:2%;}
+	.active .txt3{top:12%;}/*2015.06.11 新增*/
+}
+/*2015.06.11 删除 start*/
+/*.txt1 div{position:absolute;bottom:20%;left:2%;width:160px;height:110px;}
+.txt1 a{display:block;position:absolute;width:144px;height:50px;left:3%;cursor:pointer;left:6%;}
+.txt1 .device_iphone{top:2%;z-index:4;}
+.txt1 .device_android{top:60%;z-index:4;}*/
+/*2015.06.11 删除 start*/
+
+/*2015.06.18 微信客户端下载 start*/
+.section .bg_color{background:#368ae0;}
+.bg_kik{background: url(../../zhuanti/img/weixin/kik_bj.png) no-repeat center;}
+.kik1_left{height:500px;width:619px;background: url(../../zhuanti/img/weixin/kik1_left.png) no-repeat;bottom:0;background-size:540px 510px;}
+.kik1_right{width:374px;height:244px;background: url(../../zhuanti/img/weixin/kik1_right.png) no-repeat;}
+.active .kik1_left{left:50%;bottom:10%;}
+.active .kik1_right{left:52%;top:42%;}
+.kik2_left{background: url(../../zhuanti/img/weixin/kik2_left.png) no-repeat;}
+.kik2_right{width:677px;height:594px;background: url(../../zhuanti/img/weixin/kik2_right.png) no-repeat;}
+.kik3_left{background: url(../../zhuanti/img/weixin/kik3_left.png) no-repeat;}
+.kik3_right{background: url(../../zhuanti/img/weixin/kik3_right.png) no-repeat;}
+.kik4_left{background: url(../../zhuanti/img/weixin/kik4_left.png) no-repeat;}
+.kik4_right{background: url(../../zhuanti/img/weixin/kik4_right.png) no-repeat;}
+.kik5_left{width:661px;height:545px;background: url(../../zhuanti/img/weixin/kik5_left.png) no-repeat;}
+.kik5_right{background: url(../../zhuanti/img/weixin/kik5_right.png) no-repeat;}
+.section .bg_color2{background-color:#fed06e;}
+.section .bg_color3{background-color:#f77f81;}
+.section .bg_color4{background-color:#d988ff;}
+.section .bg_color5{background-color:#68baf6;}
+.active .kik2_left{left:49%;bottom:16%;}
+.active .kik2_right{left:42%;}
+.active .kik3_left{left:49%;}
+.active .kik3_right{left:52%;top:34%;}
+.active .kik4_left{top:30%;left:50%;}
+.active .kik5_left{top:20%;}
+.active .kik5_right{left:52%;top:34%;}
+.kik_img{position:fixed;top:30%;right:4%;}
+@media (max-height:700px){
+	.active .kik1_left{left:56%;background-size:460px 420px;}
+	.active .kik1_right{top:48%;left:48%;background-size:300px 190px;}
+	.active .kik2_left{top:32%;left:54%;}
+	.active .kik2_right{top:22%;background-size:480px 400px;}
+	.active .kik3_left{top:14%;left:56%;background-size:460px 440px;}
+	.active .kik3_right{top:24%;left:48%;}
+	.active .kik4_left{left:55%;}
+	.active .kik4_right{top:16%;left:45%;background-size:420px 460px;}
+	.active .kik5_left{left:52%;background-size:520px 440px;}
+	.active .kik5_right{left:48%;}
+	.kik_img{position:fixed;top:34%;right:4%;}
+	.kik_img img{width:180px;height:230px;}
+}
+/*2015.06.18 end*/
+.bg62s{width:323px;bottom:40%;height:270px;background:url(../../img/invite_img.png) no-repeat;}
+.c_download{width:322px;margin-top:16px;height:53px;background:url(../../img/download.png) no-repeat;}
+.bg12 { position: absolute; bottom: -392px; width: 100%; height: 392px; background: url(../../img/bg12.png) 50% 0 no-repeat; opacity: 0; transition: all 1.7s; bottom: 90px\0;}
+.bg13 { position: absolute; bottom: -377px; width: 100%; height: 377px; background: url(../../img/bg13.png) 50% 0 no-repeat; transition: all 1s;}
+.bg61 { position: absolute; top: -454px; width: 100%; height: 545px; background: url(../../img/bg61.png) 50% 0 no-repeat; transition: all 1s;}
+.txt6 { position: absolute; left: 90%; bottom: 28%; width: 447px; height:263px;margin-left: 90px; opacity: 0; transition: all 1s;}
+.cloud_bottom{width:100%;height:226px;background: url(../../img/cloud_bottom.png) no-repeat bottom;position:absolute;bottom:0;}

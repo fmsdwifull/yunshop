@@ -1,0 +1,1 @@
+Base.getScript(Path.JS+"/mobile/yd/BottomFun.js?v=140917");

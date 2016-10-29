@@ -1,0 +1,49 @@
+<include file="Public:head"/>
+
+<div class="content">
+         
+          <div class="cLineB">
+             <h4 class="left">您已创建微信投票活动 ({31cms:$count}) 个<span class="FAQ"></span></h4>
+              <div class="clr"></div>
+          </div>
+          <div class="cLine">
+            <div class="pageNavigator left">
+            <if condition="$ok eq 1">
+			<a href=""  title="发起文字投票" class="btn btn-primary btn_submit  J_ajax_submit_btn" style="display:none"><img src="{31cms::RES}/images/text.png" class="vm">发起文字投票</a>　
+			<a href="" title="发起图片投票" class="btn btn-primary btn_submit  J_ajax_submit_btn"><img src="{31cms::RES}/images/pic.png" class="vm">发起图片投票</a>
+			<a href="{31cms::U('./Home/Index/help',array('token'=>$_SESSION['token']))}"   title="API接口" class="btn btn-primary btn_submit  J_ajax_submit_btn">API接口</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Diymen/index',array('token'=>$_SESSION['token']))}"   title="底部菜单" class="btn btn-primary btn_submit  J_ajax_submit_btn">底部菜单</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Vote/gongzhong',array('id'=>$_SESSION['id']))}"   title="信息绑定" class="btn btn-primary btn_submit  J_ajax_submit_btn">信息绑定</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Vote/check',array('id'=>$_SESSION['id']))}"   title="审核信息" class="btn btn-primary btn_submit  J_ajax_submit_btn">审核信息</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Areply/index',array('id'=>$_SESSION['id'],'token'=>$_SESSION['token']))}"   title="关注回复" class="btn btn-primary btn_submit  J_ajax_submit_btn">关注回复</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Index/useredit')}"   title="修改密码" class="btn btn-primary btn_submit  J_ajax_submit_btn">修改密码</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Home/Index/logout')}"   title="退出登陆" class="btn btn-primary btn_submit  J_ajax_submit_btn">退出登陆</a>&nbsp&nbsp&nbsp
+            <else/>
+            <a href="{31cms::U('Vote/add',array('type'=>'text'))}"  title="发起文字投票" class="btn btn-primary btn_submit  J_ajax_submit_btn" style="display:none"><img src="{31cms::RES}/images/text.png" class="vm">发起文字投票</a>
+			<a href="{31cms::U('Vote/add',array('type'=>'img'))}"   title="发起图片投票" class="btn btn-primary btn_submit  J_ajax_submit_btn"><img src="{31cms::RES}/images/pic.png" class="vm">发起图片投票</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('./Home/Index/help',array('token'=>$_SESSION['token']))}"   title="API接口" class="btn btn-primary btn_submit  J_ajax_submit_btn">API接口</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Diymen/index',array('token'=>$_SESSION['token']))}"   title="底部菜单" class="btn btn-primary btn_submit  J_ajax_submit_btn">底部菜单</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Vote/gongzhong',array('id'=>$_SESSION['uid']))}"   title="信息绑定" class="btn btn-primary btn_submit  J_ajax_submit_btn">信息绑定</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Vote/check',array('id'=>$_SESSION['uid']))}"   title="审核信息" class="btn btn-primary btn_submit  J_ajax_submit_btn">审核信息</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Areply/index',array('id'=>$_SESSION['id'],'token'=>$_SESSION['token']))}"   title="关注回复" class="btn btn-primary btn_submit  J_ajax_submit_btn">关注回复</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Index/useredit')}"   title="修改密码" class="btn btn-primary btn_submit  J_ajax_submit_btn">修改密码</a>&nbsp&nbsp&nbsp
+			<a href="{31cms::U('Home/Index/logout')}"   title="退出登陆" class="btn btn-primary btn_submit  J_ajax_submit_btn">退出登陆</a>
+			</if>
+            </div>
+			 <div class="pageNavigator right">
+			 
+			<a href="{31cms::U('User/Vote/update')}"  style="" title="退出登陆" class="btn btn-primary btn_submit  J_ajax_submit_btn">查看更新</a>&nbsp&nbsp&nbsp
+			 </div>
+            <div class="clr"></div>
+          </div>
+          <div class="msgWrap">
+		  
+			</div> 
+          <div class="cLine">
+            <div class="pageNavigator right">
+                 <div class="pages"></div>
+              </div>
+            <div class="clr"></div>
+          </div>
+  </div>
+<include file="Public:footer"/>

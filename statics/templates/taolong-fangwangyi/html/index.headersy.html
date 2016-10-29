@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{wc:if isset($title)}{wc:$title}{wc:else}{wc:fun:_cfg("web_name")}{wc:if:end}</title>
+<meta name="keywords" content="{wc:if isset($keywords)}{wc:$keywords}{wc:else}{wc:fun:_cfg("web_key")}{wc:if:end}" />
+<meta name="description" content="{wc:if isset($description)}{wc:$description}{wc:else}{wc:fun:_cfg("web_des")}{wc:if:end}" />
+<meta http-equiv = "X-UA-Compatible" content = "IE = edge" />
+<link rel="stylesheet" type="text/css" href="{G_TEMPLATES_CSS}/Comm.css"/>
+<link rel="stylesheet" type="text/css" href="{G_TEMPLATES_CSS}/register.css"/>
+<link rel="stylesheet" type="text/css" href="{G_TEMPLATES_CSS}/goods1.css">
+<link rel="stylesheet" type="text/css" href="{G_TEMPLATES_STYLE}/css/Home.css"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">    
+<link rel="stylesheet" type="text/css" href="{G_TEMPLATES_CSS}/comm1.css">
+<link rel="stylesheet" type="text/css" href="{G_TEMPLATES_CSS}/footer_header.css">
+<link rel="stylesheet" type="text/css" href="{G_TEMPLATES_CSS}/index11.css">
+<script type="text/javascript" src="{G_GLOBAL_STYLE}/global/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{G_TEMPLATES_JS}/jquery.cookie.js"></script>
+<style>  
+ 
+   
+</style>
+</head>
+
+<body >
+<input type="hidden" id="mid" value="">
+<input type="hidden" id="signTime" value="">
+<input type="hidden" id="signDays" value="">
+
+<div class="header header_fixed">
+	<div class="header1">
+		<div class="header1in">
+			<ul class="headerul1">
+				<li><a style="padding-left:40px;font-size: 14px;"><i class="header-tel"></i>{wc:fun:_cfg("cell")}
+</a></li>
+				<li class="hreder-hover" style="border-right:none;"><a href="http://wpa.qq.com/msgrd?v=3&uin={wc:fun:_cfg("qq")}&site=qq&menu=yes" target="_blank">在线客服</a></li>
+				<li class="phoneli header-WeChatli">
+					<a href="{WEB_PATH}/go/index/weixin" style=" padding-bottom: 0px;">关注我们<i class="i-header-WeChat"></i></a>
+					<img src="{G_WEB_PATH}/statics/templates/taolong-fangwangyi/images/img/cloud_kik.jpg">
+				</li>
+				
+			</ul>
+			<ul class="headerul2">
+				<li><a href="{WEB_PATH}/member/home/qiandao" id="sign" onclick="sign()">签到</a></li>
+				{wc:if get_user_arr()}
+				<li>
+				   <a href="{WEB_PATH}/member/home" class="gray01" >	
+						{wc:fun:get_user_name(get_user_arr(),'username')}
+					</a>
+				</li>
+				<li>
+				   <a href="{WEB_PATH}/member/user/cook_end" class="gray01">[退出]</a>
+				</li>
+				{wc:else}
+				<li><a href="{WEB_PATH}/login">登录</a></li>
+				<li><a href="{WEB_PATH}/register">免费注册</a></li>
+				{wc:if:end}
+				
+				<li class="MyzhLi">
+					<a href="javascript:;">我的云购<i class="top"></i></a>
+					<dl class="Myzh" style="display: none;">
+						<dd><a href="{WEB_PATH}/member/home/userbuylist">购买记录</a></dd>
+						<dd><a href="{WEB_PATH}/member/home/orderlist">获得的商品</a></dd>
+						<dd><a href="{WEB_PATH}/member/home/modify">个人设置</a></dd>
+					</dl>
+				</li>
+				<li><a href="{WEB_PATH}/member/home/userrecharge">充值</a></li>	
+				<li><a href="{WEB_PATH}/help/1">帮助</a></li>	
+				<li><a style="border-right:none;" href="{WEB_PATH}/group_qq">官方QQ群</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header2">
+		<a href="{WEB_PATH}" class="header_logo"><img src="{G_UPLOAD_PATH}/{wc:fun:Getlogo()}" style="width:210px;height:auto;"></a>
+		<div class="leijinumber">
+		   
+			{wc:php:start}
+				$renci = go_count_renci() ; 
+				$strarr = str_split($renci);
+				$strlen = count($strarr);
+				$yushu = $strlen%3 ;
+			{wc:php:end}
+			<center>
+			<a href="{WEB_PATH}/buyrecord/" target="_blank">
+              <ul id="ulHTotalBuy">
+                  <li class="nobor gray6">累计参与</li>
+                  {wc:php:start}
+					for($i=0;$i<$yushu;$i++){ 
+						echo '<li class="num" >'.$strarr[$i].'</li>';
+					}
+				  {wc:php:end}
+                  <li class="nobor">,</li>
+                  {wc:php:start}
+                  	$k = 1;
+					for($i=$yushu;$i<$strlen;$i++){ 
+						echo '<li class="num" >'.$strarr[$i].'</li>';
+						if($k%3==0 && $i+1 != $strlen) {
+							echo '<li class="nobor" >,</li>';
+						}
+						$k++;
+					}
+				  {wc:php:end}
+                  
+                  <li class="nobor gray6">人次</li>
+              </ul>
+          </a>
+          </center>
+
+		</div>
+				<div class="search_header2">
+			<s></s>
+			<input type="text" placeholder="搜索您需要的商品" value="" id="txtSearch" class="init" style="color: rgb(169, 169, 169);">
+			<a href="javascript:;" class="btnHSearch_ss " id="butSearch">搜索</a>
+			<span class="search_span_a">
+			  <a href="{WEB_PATH}/s_tag/苹果" target="_blank">苹果</a>
+			  <a href="{WEB_PATH}/s_tag/iPhone" target="_blank">iPhone</a>
+			  <a href="{WEB_PATH}/s_tag/智能手机" target="_blank">智能手机</a>
+			  <a href="{WEB_PATH}/s_tag/3G手机" target="_blank">3G手机</a>
+			</span>
+		</div>
+	</div>
+</div>
+
+
+<div style="clear:both;"></div>
+<!-- 导航   start  -->
+<div class="yNavIndexOut">
+	<div class="yNavIndex">
+		<div class="pullDown" style="z-index:999">
+			<h4 class="pullDownTitle">
+				<a href="javascript:;" target="">所有商品分类</a>
+			</h4>
+			<ul class="pullDownList" style="display:block;">
+			
+			{wc:getlist sql="select * from `@#_category` where `model`='1' and `parentid` = '0' order by `order` DESC"}
+				{wc:php:start}$catenum = 1 ;{wc:php:end}
+				{wc:loop $data $categoryx}
+					<li><i class="listi{wc:$catenum}"></i><a href="{WEB_PATH}/goods_list/{wc:$categoryx['cateid']}">{wc:$categoryx['name']}</a><span></span></li>
+					{wc:php:start}$catenum++ ;{wc:php:end}
+				{wc:loop:end}
+			{wc:getlist:end}
+			<li><i class="listi7"></i><a href="{WEB_PATH}/group">云购社区</a><span></span></li>
+			</ul>
+		</div>
+		<ul class="yMenuIndex">
+			<li><a href="{WEB_PATH}"  {wc:if $key == '首页'} class="yMenua" {wc:if:end}>首页</a></li>
+			<li><a href="{WEB_PATH}/general_glist/" {wc:if $key == '国际购'} class="yMenua" {wc:if:end}>国际购</a></li>
+			<li class="hide-menu-nav" ><span></span>
+				<a href="javascript:" class="hide-menu-nava {wc:if $key == '云购专区'} yMenua {wc:if:end}" >云购专区</a>
+				<dl>
+					<dd><a href="{WEB_PATH}/goods_list/0/5">五元专区</a></dd>
+					<dd><a href="{WEB_PATH}/goods_list/0/10">十元专区</a></dd>
+				</dl>
+			</li>
+			<li style="width:120px;"><a href="{WEB_PATH}/goods_lottery/"  {wc:if $key == '最新揭晓'} class="yMenua" {wc:if:end}>最新揭晓<img src="{G_WEB_PATH}/statics/templates/taolong-fangwangyi/images/img/hot.gif" style="position:absolute;top:-6px;right:3px;width:25px;"></a></li>
+			<li style="padding:0 0px 0px 12px;width:108px;"><a href="{WEB_PATH}/go/shaidan/"  {wc:if $key == '惊喜晒单'} class="yMenua" {wc:if:end} style="padding-right:10px;"><img src="{G_WEB_PATH}/statics/templates/taolong-fangwangyi/images/img/gif_qq.gif" style="position:absolute;top:12px;left:0px;width:20px;">惊喜晒单</a></li>
+
+			<li><a href="{WEB_PATH}/group/"  {wc:if $key == '国际圈'} class="yMenua" {wc:if:end}>国际圈</a></li>
+			<li class="hide-menu-nav" style="padding: 0 13px 0px 15px;"><span></span>
+				<a href="javascript:void(0)" class="hide-menu-nava">国际大发现</a>
+				<dl>
+					<dd style="border-top:1px solid #ddd;"><a href="{WEB_PATH}/zhuanti/yaoqing" target="_blank">邀请好友赚佣金</a></dd>
+					<dd style="border-top:1px solid #ddd;"><a href="{WEB_PATH}/zhuanti/hezuo" target="_blank">云购供应商招募</a></dd>
+				</dl>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+
+                                          
+<!-- 导航   end  -->
+
+
+	
+    
+    
+
+    
+    
+	
+
+
+
+
+
+

@@ -1,0 +1,247 @@
+[ 2015-04-12T13:48:19+08:00 ] 0.0.0.0 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.033702s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.009597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') D:\phpStudy\WWW\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000735s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046089s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007544s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.053716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068907s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.122769s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.124078s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.126576s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.127559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005722s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.128563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009693s ]
+
+[ 2015-04-12T13:48:56+08:00 ] 0.0.0.0 /index.php?m=Users&a=checklogin
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005320s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006940s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.022751s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.017435s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.021207s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: UPDATE `tp_users` SET `diynum`='0',`connectnum`='0',`activitynum`='0' WHERE ( `id` = 1 ) [ RunTime:0.059897s ]
+SQL: UPDATE `tp_users` SET `lasttime`='1428817736',`lastloginmonth`='4',`lastip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.000866s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.208369s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.209536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088585s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.298159s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.299136s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.300034s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.300876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003660s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.301878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-04-12T14:02:48+08:00 ] 0.0.0.0 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005367s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') D:\phpStudy\WWW\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000897s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005911s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017576s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024484s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025884s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002504s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2015-04-12T14:02:56+08:00 ] 0.0.0.0 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.013753s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') D:\phpStudy\WWW\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000791s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001125s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010673s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018668s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019325s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019996s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003073s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2015-04-12T14:03:03+08:00 ] 0.0.0.0 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007969s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') D:\phpStudy\WWW\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000804s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005877s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001981s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008320s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016273s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017262s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001924s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018251s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2015-04-12T14:54:12+08:00 ] 0.0.0.0 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005169s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') D:\phpStudy\WWW\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000821s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024847s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013016s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038536s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039295s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039900s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040904s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-04-12T14:54:18+08:00 ] 0.0.0.0 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004858s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') D:\phpStudy\WWW\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000633s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004149s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006654s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011399s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011834s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012338s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-04-12T14:54:26+08:00 ] 0.0.0.0 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007355s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '') D:\phpStudy\WWW\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000622s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004296s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020872s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025990s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026510s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027045s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002256s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2015-04-12T14:54:33+08:00 ] 0.0.0.0 /index.php?m=Users&a=checklogin
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.008460s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010715s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.006554s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004607s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: UPDATE `tp_users` SET `lasttime`='1428821673',`lastloginmonth`='4',`lastip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.000456s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\31cms\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033466s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006481s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040528s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040974s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041614s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002294s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000775s ]
+

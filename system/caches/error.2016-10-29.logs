@@ -1,0 +1,1 @@
+[29-Oct-2016 14:55:23 Asia/Shanghai] PHP Warning:  mysql_connect(): Access denied for user 'zye'@'localhost' (using password: YES) in F:\wwwroot\Mytp5\system\libs\db_mysql.class.php on line 60

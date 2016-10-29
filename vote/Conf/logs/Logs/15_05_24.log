@@ -1,0 +1,26 @@
+[ 2015-05-24T16:43:55+08:00 ] ERR: (ThinkException) 无法加载模块:phpmyadmin
+[ 2015-05-24T16:43:55+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-05-24T17:59:13+08:00 ] 192.168.1.101 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023420s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.105446s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://192.168.1.101' ) LIMIT 1   [ RunTime:0.033444s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.670110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.025899s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.696087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060437s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.756606s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.758773s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.760533s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.762335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007703s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.764426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001830s ]
+

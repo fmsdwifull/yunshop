@@ -1,0 +1,57 @@
+[ 2015-06-06T10:45:07+08:00 ] 192.168.1.100 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013632s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.017736s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://192.168.1.100' ) LIMIT 1   [ RunTime:0.000841s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.155628s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001506s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.157200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043907s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.201182s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.202405s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.203577s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.204414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004349s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.205631s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2015-06-06T10:45:08+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-06-06T10:45:08+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-06-06T10:45:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-06-06T10:45:11+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-06-06T10:45:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico
+[ 2015-06-06T11:20:43+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\www\31cms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [8] Undefined index: 1 D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\www\31cms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.017587s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://localhost' ) LIMIT 1   [ RunTime:0.000727s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.069403s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012197s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.081652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033498s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.115203s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.116117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.117131s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.118035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003899s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.119178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2015-06-06T11:20:43+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-06-06T11:20:43+08:00 ] ERR: (ThinkException) 无法加载模块:tpl
+[ 2015-06-06T11:20:43+08:00 ] ERR: (ThinkException) 无法加载模块:favicon.ico

@@ -1,0 +1,1529 @@
+[ 2015-03-18T00:08:41+08:00 ] 221.213.73.7 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000393s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002791s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017265s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047904s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049541s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050998s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005947s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053996s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2015-03-18T00:16:38+08:00 ] 182.118.25.244 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000461s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.030237s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002293s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026436s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059245s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061038s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063451s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.065293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008238s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.067725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2015-03-18T00:16:39+08:00 ] 182.118.53.49 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004213s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000627s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.043419s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003397s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024964s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.072034s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.073455s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.074829s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.076210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006044s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.078625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2015-03-18T00:41:01+08:00 ] 123.125.71.102 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002292s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000513s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.056657s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002906s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.059713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026157s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.086021s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.088012s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.091109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.095107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.097971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003866s ]
+
+[ 2015-03-18T00:41:33+08:00 ] 123.125.71.102 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000369s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002141s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015615s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050087s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051977s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053891s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007869s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.058062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2015-03-18T00:42:58+08:00 ] 220.181.108.82 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000492s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040402s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003105s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022922s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066878s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069064s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071314s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008730s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.075896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2015-03-18T00:43:30+08:00 ] 220.181.108.82 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000394s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028889s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002229s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049986s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.052527s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.053640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005347s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2015-03-18T01:50:03+08:00 ] 123.125.71.70 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040986s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002342s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024718s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.068252s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069943s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071892s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007496s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.075938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2015-03-18T01:50:03+08:00 ] 123.125.71.70 /index.php
+NOTIC: [32] Zend Optimizer for PHP 5.2.x cannot be found (expected at './plugin/Zend/lib/Optimizer-3.3.3\php-5.2.x\ZendOptimizer.dll') - try reinstalling the Zend Optimizer Unknown 第 0 行.
+
+[ 2015-03-18T01:50:29+08:00 ] 123.125.71.95 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000355s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028290s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024226s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054827s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056130s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057670s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005598s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2015-03-18T01:51:49+08:00 ] 220.181.108.97 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027464s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.029868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015696s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045732s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047049s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048455s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005661s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.051711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2015-03-18T01:52:23+08:00 ] 220.181.108.83 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000409s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027759s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002591s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021357s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051966s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053531s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055055s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005981s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.058176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2015-03-18T01:57:56+08:00 ] 123.125.71.22 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000381s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027553s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018022s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048416s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049726s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051239s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005666s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2015-03-18T02:18:51+08:00 ] 123.125.71.95 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000506s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036320s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003542s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030384s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.071136s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.073365s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.076096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.077838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.079935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2015-03-18T03:48:54+08:00 ] 177.6.152.16 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000368s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033591s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002361s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028664s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065191s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.066712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069590s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.071065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008398s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002589s ]
+
+[ 2015-03-18T03:48:54+08:00 ] 177.6.152.16 /index.php
+NOTIC: [32] Zend Optimizer for PHP 5.2.x cannot be found (expected at './plugin/Zend/lib/Optimizer-3.3.3\php-5.2.x\ZendOptimizer.dll') - try reinstalling the Zend Optimizer Unknown 第 0 行.
+
+[ 2015-03-18T03:50:49+08:00 ] 201.1.28.66 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000470s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004128s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028757s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066131s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067632s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069294s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.072206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001878s ]
+
+[ 2015-03-18T04:20:26+08:00 ] 192.99.107.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000373s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.030504s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002594s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.033209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029826s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.063181s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065630s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067708s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007780s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2015-03-18T04:34:38+08:00 ] 54.174.245.188 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000400s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033104s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002238s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027538s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.063222s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.064917s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066657s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007249s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001930s ]
+
+[ 2015-03-18T04:51:26+08:00 ] 123.125.71.109 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002899s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000472s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036093s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025409s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066472s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.068482s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.070647s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009302s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.076131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003437s ]
+
+[ 2015-03-18T04:52:04+08:00 ] 123.125.71.95 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000403s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032252s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003065s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055662s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057814s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007718s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.063552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003530s ]
+
+[ 2015-03-18T04:53:50+08:00 ] 220.181.108.113 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000378s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028824s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002328s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015827s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047423s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052120s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.057126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012191s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2015-03-18T04:54:22+08:00 ] 220.181.108.95 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000823s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034422s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002932s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021645s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059278s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060653s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062133s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005873s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.065283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2015-03-18T06:45:02+08:00 ] 66.249.64.195 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004430s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000491s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044473s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003528s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.048280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062311s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.110669s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.112525s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.114345s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.115849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007343s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.118279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002842s ]
+
+[ 2015-03-18T06:45:02+08:00 ] 66.249.64.195 /index.php
+NOTIC: [32] Zend Optimizer for PHP 5.2.x cannot be found (expected at './plugin/Zend/lib/Optimizer-3.3.3\php-5.2.x\ZendOptimizer.dll') - try reinstalling the Zend Optimizer Unknown 第 0 行.
+
+[ 2015-03-18T07:39:57+08:00 ] 123.125.71.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000578s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.043346s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005312s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033066s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.082077s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.083904s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.088006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.108257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031679s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.114074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006959s ]
+
+[ 2015-03-18T07:39:57+08:00 ] 123.125.71.55 /index.php
+NOTIC: [32] Zend Optimizer for PHP 5.2.x cannot be found (expected at './plugin/Zend/lib/Optimizer-3.3.3\php-5.2.x\ZendOptimizer.dll') - try reinstalling the Zend Optimizer Unknown 第 0 行.
+
+[ 2015-03-18T07:40:05+08:00 ] 123.125.71.25 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000701s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.030883s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002077s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.033053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062697s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.064623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066931s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009075s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2015-03-18T07:42:17+08:00 ] 220.181.108.160 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000334s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005468s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.057986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031426s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.089405s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.090821s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.092654s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.094028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006304s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.096016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2015-03-18T07:42:54+08:00 ] 220.181.108.150 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://shuzi123.com' ) LIMIT 1   [ RunTime:0.000412s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002974s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054610s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.058783s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.061991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2015-03-18T08:36:37+08:00 ] 49.72.197.251 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000264s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.047106s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003176s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029533s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.079975s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.081287s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.083307s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.084675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006596s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.086767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2015-03-18T08:36:37+08:00 ] 49.72.197.251 /index.php
+NOTIC: [32] Zend Optimizer for PHP 5.2.x cannot be found (expected at './plugin/Zend/lib/Optimizer-3.3.3\php-5.2.x\ZendOptimizer.dll') - try reinstalling the Zend Optimizer Unknown 第 0 行.
+
+[ 2015-03-18T08:36:39+08:00 ] 119.147.146.193 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000266s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032049s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002478s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032754s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067537s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069133s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071826s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.075962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2015-03-18T08:36:50+08:00 ] 49.72.197.251 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000564s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001643s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: UPDATE `tp_users` SET `lasttime`=1426639010,`lastloginmonth`=3,`lastip`='49.72.197.251' WHERE ( `id` = 1 ) [ RunTime:0.000705s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041418s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003439s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.045138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027225s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.072419s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.074039s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.075566s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.076828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006254s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.078912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2015-03-18T08:36:51+08:00 ] 112.64.235.251 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 16 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000657s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 21 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000688s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001076s ]
+
+[ 2015-03-18T08:36:51+08:00 ] 49.72.197.251 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000741s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000514s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000187s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.056984s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003098s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ok D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.060230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039176s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.099509s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101385s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.103066s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.106131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010568s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.110912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003289s ]
+
+[ 2015-03-18T08:36:52+08:00 ] 112.64.235.251 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000438s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033893s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002450s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035840s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.072431s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.075161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.077361s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.079372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010610s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.083354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2015-03-18T08:36:52+08:00 ] 119.147.146.189 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 16 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000857s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 21 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001013s ]
+
+[ 2015-03-18T08:36:53+08:00 ] 119.147.146.189 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000648s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001914s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031802s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067385s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.070438s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.072764s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.074702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009646s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.076884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2015-03-18T08:36:53+08:00 ] 119.147.146.189 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026529s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016627s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045780s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047162s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048638s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007370s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002277s ]
+
+[ 2015-03-18T08:37:05+08:00 ] 49.72.197.251 /index.php?g=User&m=Vote&a=share&token=vjcbgt1414375209&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `id` = 2 ) AND ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000794s ]
+SQL: SELECT * FROM `tp_users` LIMIT 1   [ RunTime:0.000827s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 2 ) LIMIT 1   [ RunTime:0.000942s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 2 ) ORDER BY RAND() LIMIT 0,60   [ RunTime:0.000410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` WHERE ( `vid` = 2 ) LIMIT 1   [ RunTime:0.000920s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.068212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.018901s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.087353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059950s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.147316s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.149757s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.152847s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.154583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011452s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.158922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002082s ]
+
+[ 2015-03-18T08:37:05+08:00 ] 101.226.66.179 /index.php?g=User&m=Vote&a=share&token=vjcbgt1414375209&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000740s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 16 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 21 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `id` = 2 ) AND ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.001134s ]
+SQL: SELECT * FROM `tp_users` LIMIT 1   [ RunTime:0.000518s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 2 ) LIMIT 1   [ RunTime:0.000517s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 2 ) ORDER BY RAND() LIMIT 0,60   [ RunTime:0.000807s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` WHERE ( `vid` = 2 ) LIMIT 1   [ RunTime:0.000538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.066649s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001792s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.068496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026983s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.095606s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098600s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.100243s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.101840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008037s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2015-03-18T08:37:28+08:00 ] 49.72.197.251 /index.php?g=User&m=Vote&a=eitem&token=vjcbgt1414375209&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000629s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) ORDER BY id DESC LIMIT 0,60   [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: vote D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\User\VoteAction.class.php 第 701 行.
+SQL: SELECT SUM(vcount) AS tp_sum FROM `tp_vote_item` WHERE ( `vid` = null ) LIMIT 1   [ RunTime:0.000458s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.045089s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002280s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058888s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.106651s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.108553s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.112564s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.114252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010213s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.117103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002363s ]
+
+[ 2015-03-18T08:37:28+08:00 ] 180.153.201.217 /index.php?g=User&m=Vote&a=eitem&token=vjcbgt1414375209&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 16 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 21 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001373s ]
+
+[ 2015-03-18T08:37:28+08:00 ] 180.153.201.217 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000203s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033671s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002932s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018294s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055143s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057253s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063270s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017617s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003657s ]
+
+[ 2015-03-18T08:37:50+08:00 ] 49.72.197.251 /index.php?g=User&m=Upyun&a=upload&token=vjcbgt1414375209&width=700
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002574s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001249s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000453s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.050855s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008383s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: apikey D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\98b8848b68e15d866cd61a62155341bf.php 第 11 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.059401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035139s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.094705s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.097446s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.099454s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.101084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009091s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.104023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003064s ]
+
+[ 2015-03-18T08:37:50+08:00 ] 180.153.206.18 /index.php?g=User&m=Upyun&a=upload&token=vjcbgt1414375209&width=700
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 16 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 21 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000457s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.049344s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: apikey D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\98b8848b68e15d866cd61a62155341bf.php 第 11 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.051765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.079377s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.080722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.082858s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.084543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007268s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.086905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003461s ]
+
+[ 2015-03-18T08:38:40+08:00 ] 49.72.197.251 /index.php?g=User&m=Upyun&a=upload&token=vjcbgt1414375209&width=700
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000437s ]
+NOTIC: [2] md5_file(./uploads/v/vjcbgt1414375209/e/3/6/7/5508c9106f72c.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory D:\wwwroot\toupiao\wwwroot\iMicms\Lib\ORG\UploadFile.class.php 第 197 行.
+SQL: UPDATE `tp_users` SET `attachmentsize`=attachmentsize+20127 WHERE ( `id` = 1 ) [ RunTime:0.001292s ]
+SQL: INSERT INTO `tp_files` (`token`,`size`,`time`,`type`,`url`) VALUES ('vjcbgt1414375209',20127,1426639120,'jpg','http://www.shuzi123.com/uploads/v/vjcbgt1414375209/e/3/6/7/thumb_5508c9106f72c.jpg') [ RunTime:0.000906s ]
+
+[ 2015-03-18T08:38:40+08:00 ] 49.72.197.251 /index.php?g=User&m=Upyun&a=upload&error=0&msg=http://www.shuzi123.com/uploads/v/vjcbgt1414375209/e/3/6/7/thumb_5508c9106f72c.jpg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000885s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000385s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040932s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002317s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: apikey D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\98b8848b68e15d866cd61a62155341bf.php 第 11 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017573s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061318s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063100s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064935s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.066363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006869s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068369s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002079s ]
+
+[ 2015-03-18T08:38:44+08:00 ] 49.72.197.251 /index.php?g=User&m=Vote&a=eitem_add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001350s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000518s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: INSERT INTO `tp_vote_item` (`vid`,`item`,`rank`,`vcount`,`tourl`,`intro`,`status`,`addtime`,`startpicurl`) VALUES (2,'建',1,10,'110','0',1,1426639124,'http://www.shuzi123.com/uploads/v/vjcbgt1414375209/e/3/6/7/thumb_5508c9106f72c.jpg') [ RunTime:0.001733s ]
+
+[ 2015-03-18T08:38:45+08:00 ] 49.72.197.251 /index.php?g=User&m=Vote&a=eitem&token=vjcbgt1414375209&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000470s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000992s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000743s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) ORDER BY id DESC LIMIT 0,60   [ RunTime:0.000627s ]
+NOTIC: [8] Undefined variable: vote D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\User\VoteAction.class.php 第 701 行.
+SQL: SELECT SUM(vcount) AS tp_sum FROM `tp_vote_item` WHERE ( `vid` = null ) LIMIT 1   [ RunTime:0.000982s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.061136s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001960s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.063187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028046s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.091406s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.093475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095252s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.096699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007487s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099082s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002189s ]
+
+[ 2015-03-18T08:38:50+08:00 ] 49.72.197.251 /index.php?g=User&m=Vote&a=share&token=vjcbgt1414375209&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000908s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000996s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.001146s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `id` = 2 ) AND ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000591s ]
+SQL: SELECT * FROM `tp_users` LIMIT 1   [ RunTime:0.000704s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 2 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 2 ) ORDER BY RAND() LIMIT 0,60   [ RunTime:0.000480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_record` WHERE ( `vid` = 2 ) LIMIT 1   [ RunTime:0.000332s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.054036s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002645s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.056849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030097s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.087063s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.089068s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.091096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.092285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007093s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.094297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002127s ]
+
+[ 2015-03-18T08:45:49+08:00 ] 123.125.71.57 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000474s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028696s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002551s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017664s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049053s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050574s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.052049s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.053365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006028s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055253s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2015-03-18T08:46:14+08:00 ] 123.125.71.60 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000550s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032498s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002385s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054253s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055595s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.056979s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005482s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002240s ]
+
+[ 2015-03-18T08:48:09+08:00 ] 220.181.108.91 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000395s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.035126s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002880s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023317s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061702s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066601s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.077905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027811s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.089592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003084s ]
+
+[ 2015-03-18T08:48:09+08:00 ] 220.181.108.112 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000341s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027750s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002697s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025687s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056743s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058397s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059903s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006225s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.063113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2015-03-18T08:53:35+08:00 ] 180.153.196.140 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000317s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032467s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004262s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019211s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056067s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057797s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059409s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006192s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2015-03-18T08:53:36+08:00 ] 182.118.44.148 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000476s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.032861s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004136s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022267s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059646s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061747s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063626s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.064909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007112s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.067010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002806s ]
+
+[ 2015-03-18T08:54:26+08:00 ] 61.177.26.30 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001100s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000773s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000528s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001200s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000808s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000439s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.072593s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ok D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.074940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048401s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.123440s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.125340s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.127130s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.128772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007533s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.131173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2015-03-18T08:54:32+08:00 ] 61.177.26.30 /index.php?g=User&m=Vote&a=totals&type=img&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002144s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001269s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001038s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `id` = 2 ) AND ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.007545s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) ORDER BY vcount DESC LIMIT 0,60   [ RunTime:0.001456s ]
+SQL: SELECT SUM(vcount) AS tp_sum FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000597s ]
+SQL: SELECT `vcount` FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) GROUP BY vcount  [ RunTime:0.000587s ]
+SQL: SELECT * FROM `tp_vote_item` WHERE ( `vid` = 2 ) AND ( `status` = 1 ) ORDER BY vcount desc LIMIT 0,60   [ RunTime:0.001039s ]
+NOTIC: [8] Undefined variable: total D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\User\VoteAction.class.php 第 83 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.081753s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002061s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.083868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034562s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.118528s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.120215s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.122375s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.123863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008263s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.126953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2015-03-18T08:54:32+08:00 ] 101.226.33.227 /index.php?g=User&m=Vote&a=totals&type=img&id=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.039413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.061793s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 16 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000699s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\UserAction.class.php 第 21 行.
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = null ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000238s ]
+
+[ 2015-03-18T08:54:32+08:00 ] 101.226.33.227 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000619s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031757s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002966s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027121s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062200s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065839s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.068605s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.071064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011915s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.074382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2015-03-18T08:54:35+08:00 ] 61.177.26.30 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007148s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000215s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.061603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004991s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ok D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.066694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041953s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.108821s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.110519s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.111917s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.113067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006023s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.115037s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002739s ]
+
+[ 2015-03-18T09:10:26+08:00 ] 180.153.236.132 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000395s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040871s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021771s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065977s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067334s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069147s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.071898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2015-03-18T09:10:26+08:00 ] 182.118.53.175 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006499s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.066226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006793s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.073246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.093090s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.094372s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095786s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.096893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005560s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.098811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2015-03-18T09:26:50+08:00 ] 123.181.26.214 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wwwroot\toupiao\wwwroot\iMicms\Lib\Action\Home\IndexAction.class.php 第 2 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000516s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008058s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022821s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062271s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.064396s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009745s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.072249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2015-03-18T09:26:57+08:00 ] 123.181.26.214 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001426s ]
+SQL: SELECT `token` FROM `tp_token_open` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000598s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: UPDATE `tp_users` SET `lasttime`=1426642017,`lastloginmonth`=3,`lastip`='123.181.26.214' WHERE ( `id` = 1 ) [ RunTime:0.001075s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002269s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022594s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.073716s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.085727s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.087887s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.089370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018307s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.092614s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003985s ]
+
+[ 2015-03-18T09:26:59+08:00 ] 123.181.26.214 /index.php?g=User&m=Vote&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wwwroot\toupiao\wwwroot\iMicms\_Core\Lib\Core\Action.class.php 第 208 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.shuzi123.com' ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001578s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.006341s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001641s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'vjcbgt1414375209' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT `gid`,`activitynum` FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000754s ]
+SQL: SELECT * FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) ORDER BY id DESC  [ RunTime:0.000473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_vote` WHERE ( `token` = 'vjcbgt1414375209' ) LIMIT 1   [ RunTime:0.000346s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.088114s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ok D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 165 行.
+NOTIC: [8] Undefined index:  id D:\wwwroot\toupiao\wwwroot\Data\logs\Cache\User\f70321ef24e437eb7147c67ab8f0460a.php 第 181 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.095061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038844s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.133584s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.139098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.141400s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.143552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.145632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001975s ]
+
